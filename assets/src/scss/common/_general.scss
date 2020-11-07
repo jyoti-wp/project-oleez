@@ -1,0 +1,24 @@
+html {
+	overflow-x: hidden;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	max-width: $site_width;
+
+	@media screen and (min-width: $desktop ) {
+		padding: 0;
+	}
+}
+
+a {
+	text-decoration: none;
+	display: block !important;
+	color: $text-color;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}

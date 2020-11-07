@@ -1,0 +1,39 @@
+header{
+
+	.logo-image {
+		padding: 20px;
+	}
+
+	.header-container {
+		display: flex;
+    		justify-content: space-between;
+	}
+
+	.wrapper {
+		@media screen and (max-width: $desktop ) {
+			padding: 0;
+		}
+	}
+
+	.menu {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	li {
+		position: relative;
+		list-style: none;
+		padding-right: 20px;
+    	padding-left: 20px;
+	}
+
+	img {
+		width: auto;
+	}
+
+	.menu-item a{
+		font-family: "Heebo", sans-serif;
+		font-weight: 500;
+		font-size: 18px;
+	}
+}

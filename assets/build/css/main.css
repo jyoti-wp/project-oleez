@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/**
+ * Front end styles.
+ */
+header .logo-image {
+  padding: 1.25rem; }
+
+header .header-container {
+  display: flex;
+  justify-content: space-between; }
+
+header .menu {
+  display: flex;
+  justify-content: space-between; }
+
+header li {
+  position: relative;
+  list-style: none;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem; }
+
+header img {
+  width: auto; }
+
+header .menu-item a {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem; }
+
+.main-footer {
+  background-color: black; }
+  .main-footer .final-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8125rem 0px; }
+  .main-footer .footer-menu {
+    padding-top: 5.625rem;
+    padding-bottom: 2.8125rem; }
+  .main-footer .final-footer p {
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.29;
+    color: white;
+    font-family: "Heebo", sans-serif; }
+  .main-footer .footer-menu {
+    display: flex;
+    justify-content: space-between; }
+  .main-footer .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+    .main-footer .col-md-6 p {
+      padding-top: 1.875rem;
+      text-align: left;
+      font-size: 1.375rem;
+      line-height: 1.625rem;
+      margin-bottom: 1.625rem;
+      font-family: "Heebo", sans-serif;
+      max-width: 18.4375rem;
+      color: white; }
+  .main-footer .footer-social-links {
+    display: flex; }
+  .main-footer .footer-social-links a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    margin-right: 0.625rem; }
+  .main-footer h6 {
+    color: white; }
+  .main-footer .footer-widget-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 2.5rem; }
+    .main-footer .footer-widget-text p {
+      color: white; }
+  .main-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+
+html {
+  overflow-x: hidden; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 73.1875rem; }
+
+a {
+  text-decoration: none;
+  display: block !important;
+  color: #000; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+      padding: 0; } }
+
+@media screen and (max-width: 1200px) {
+  header .wrapper {
+    padding: 0; } }
+
+
+/*# sourceMappingURL=main.css.map*/
