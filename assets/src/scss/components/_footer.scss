@@ -1,36 +1,23 @@
 .main-footer {
     background-color: black;
 
-    .final-footer {
+    .row {
         display: flex;
-        justify-content: space-between;
-        padding: 45px 0px;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
     }
 
-    .footer-menu {
+    .footer-box {
         padding-top: 90px;
         padding-bottom: 45px;
     }
 
-    .final-footer p {
-        text-align: center;
-        font-size: 14px;
-        line-height: 1.29;
-        color: white;
-        font-family: "Heebo", sans-serif;
-    }
-
-    .footer-menu {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .col-md-6 {
+    .column {
         flex: 0 0 50%;
         max-width: 50%;
 
         p {
-            padding-top: 30px;
             text-align: left;
             font-size: 22px;
             line-height: 26px;
@@ -41,9 +28,20 @@
         }
     }
 
+    img {
+        height: 30px;
+        margin-bottom: 19px;
+    }
+
 
     .footer-social-links {
         display: flex;
+        font-family: "Heebo", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #100e0e;
+        text-align: left;
     }
 
     .footer-social-links a {
@@ -51,11 +49,7 @@
         font-weight: 700;
         line-height: 1;
         color: white;
-        margin-right: 10px;
-    }
-
-    h6 {
-        color: white;
+        margin-right: 15px;
     }
 
     .footer-widget-text {
@@ -63,15 +57,36 @@
         max-width: 50%;
         margin-bottom: 40px;
 
-        p {
-            color: white;
+        h6 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 6px;
+            color: #f7b500;
         }
+
     }
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+    .column .widget-content p {
+        color: white;
+        font-size: 16px;
+        line-height: 26px;
     }
+
+
+
+
+
+    .footer-text {
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 0px;
+
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.29;
+        color: white;
+        font-family: "Heebo", sans-serif;
+    }
+
 }
