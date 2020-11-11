@@ -87,6 +87,8 @@ function create_custom_post_type() {
 }
 
 //hooking up your funtion to same theme
+
+
  	
 	
 

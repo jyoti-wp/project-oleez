@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <div class="content">
-<?php get_template_part( 'template-parts/home/hero' ); ?>
+<?php get_template_part( 'template-parts/home/oleez-landing-section-about.php' ); ?>
 <?php get_template_part( 'template-parts/home/about-us' ); ?>
 <?php get_template_part( 'template-parts/home/valuable-section'); ?>
 <?php get_template_part( 'template-parts/home/our-work'); ?>
