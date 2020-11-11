@@ -1,0 +1,27 @@
+.oleez-landing-section-about {
+    padding-top: 130px;
+    padding-bottom: 125px;
+
+    .oleez-landing-section-content {
+        padding-left: 212px;
+        position: relative;
+    }
+
+    .oleez-landing-section-verticals {
+        visibility: visible;
+        animation-name: fadeIn;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding-top: 11px;
+    }
+
+    .oleez-landing-section-verticals .number {
+        font-size: 20px;
+        color: #f7b500;
+        line-height: 1;
+        display: inline-block;
+        margin-right: 13px;
+    }
+}

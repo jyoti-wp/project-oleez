@@ -97,11 +97,11 @@ html {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 73.1875rem; }
+  max-width: 71.25rem; }
 
 a {
   text-decoration: none;
-  display: block !important;
+  display: block;
   color: #000; }
 
 img {
@@ -109,13 +109,70 @@ img {
   height: auto; }
 
 body {
-  font-family: "Heebo", sans-serif; }
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  font-weight: 500; }
 
-@media screen and (min-width: 1200px) {
+.oleez-landing-section-about {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-about .oleez-landing-section-content {
+    padding-left: 13.25rem;
+    position: relative; }
+  .oleez-landing-section-about .oleez-landing-section-verticals {
+    visibility: visible;
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+  .oleez-landing-section-about .oleez-landing-section-verticals .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
+
+.oleez-landing-section-news {
+  padding-left: 13.25rem; }
+  .oleez-landing-section-news .oleez-landing-section-container {
+    padding-left: 13.25rem;
+    position: relative; }
+  .oleez-landing-section-news .oleez-landing-section-verticals {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+  .oleez-landing-section-news .oleez-landing-section-verticals::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    position: absolute;
+    top: 3.125rem;
+    left: 0.6875rem;
+    bottom: 0;
+    background-color: #f8f4eb; }
+  .oleez-landing-section-news .oleez-landing-section-verticals .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
+  .oleez-landing-section-news h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500; }
+  .oleez-landing-section-news p {
+    font-size: 0.9375rem;
+    line-height: 1.67;
+    margin-bottom: 3.875rem; }
+  @media screen and (min-width: 1200px) {
     .wrapper {
       padding: 0; } }
-
-@media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
   header .wrapper {
     padding: 0; } }
 

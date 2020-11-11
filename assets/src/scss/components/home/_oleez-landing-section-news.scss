@@ -1,0 +1,47 @@
+.oleez-landing-section-news{
+        padding-left: 212px;
+
+    .oleez-landing-section-container {
+        padding-left: 212px;
+        position: relative;
+    }
+
+    .oleez-landing-section-verticals {
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding-top: 11px;
+    }
+
+    .oleez-landing-section-verticals::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        position: absolute;
+        top: 50px;
+        left: 11px;
+        bottom: 0;
+        background-color: #f8f4eb;
+    }
+
+    .oleez-landing-section-verticals .number {
+        font-size: 20px;
+        color: #f7b500;
+        line-height: 1;
+        display: inline-block;
+        margin-right: 13px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.33;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.67;
+        margin-bottom: 62px;
+    }
+}
