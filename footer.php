@@ -2,7 +2,7 @@
 /**
  * Footer template.
  *
- * @package vela
+ * @package Oleez
  */
 
 ?>
