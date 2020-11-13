@@ -72,44 +72,13 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
 
 
-add_action('init', 'create_custom_post_type');
 
-function create_custom_post_type() {
-	$supports = array(
-		'title', // post title
-		'editor', //post content
-		'author', //post author
-		'thumbnail', //featured images
-		'excerpt', //post excerpt
-		'custom-fields', // custom fields
-		'comments', //post comments
-		'revisions', // post revisions
-		'post formats', // post formats
-	);
-	$args = array(	
-		'supports' => $supports,
-		'labels'	=> array(
-		'name'      => __('News', 'oleez'),
-		'singular_name' => __('News', 'oleez'),
-		),
+include_once 'includes/register-post-type-news.php';
 
-		'public'      => true,
-		'taxanomies' => array( 'category', 'post_tags' ),
-		'capability_type' => 'post',
-		'has_archive' => true,
-	);
-	register_post_type('news', $args  );
-}
-//hooking up your funtion to same theme
+include_once 'includes/register-post-type-testimonials.php';
 
+include_once 'includes/add-theme-support.php';
 
-
-add_theme_support( 'post-thumbnails' );
-add_theme_support( 'title-tag' );
-add_theme_support( 'custom-logo', array(
-    'height' => 480,
-    'width'  => 720,
-) );
 
  	
 
