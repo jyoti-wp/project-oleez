@@ -7,7 +7,7 @@
         position: relative;
     }
 
-    .oleez-landing-section-verticals {
+    .oleez-landing-section-vertical {
         visibility: visible;
         animation-name: fadeIn;
         position: absolute;
@@ -17,6 +17,17 @@
         padding-top: 11px;
     }
 
+    .landing-about-content {
+        margin-bottom: 70px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
     .oleez-landing-section-verticals .number {
         font-size: 20px;
         color: #f7b500;
@@ -24,4 +35,49 @@
         display: inline-block;
         margin-right: 13px;
     }
+
+    .column {
+        flex: 0 0 50%;
+        max-width: 50%;
+
+
+        h2 {
+            font-size: 30px;
+            line-height: 1.33;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 15px;
+            line-height: 1.67;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .landing-about-feature {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+
+        img {
+            margin-bottom: 45px;
+            vertical-align: middle;
+            border-style: none;
+        }
+
+        h5 {
+            line-height: 1.1;
+            margin-bottom: 13px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.71;
+            font-weight: 300;
+        }
+    }
+
 }
