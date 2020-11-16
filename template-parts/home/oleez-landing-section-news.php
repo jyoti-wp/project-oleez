@@ -32,8 +32,7 @@
     <div class="entry-meta">
         <?php if ( is_single() ) { ?>
             <span class="author"><?php the_author_posts_link(); ?></span>
-        <?php }
-        sela_entry_meta(); ?>
+        <?php }; ?>
     </div>  
 <!-- .entry-meta -->
 
