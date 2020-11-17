@@ -1,0 +1,43 @@
+<section class="oleez-landing-section-client">
+    <div class="wrapper">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <span class="number">04</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+            </div>
+            <h2 class="section-title mb-1 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Partners &amp; clients</h2>
+            <p class="client-section-subtitle">We’re constantly refining our product. Adding new features. Working to help your business grow.</p>
+            <div class="row">
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+                <div class="col-md-4 client-logo-wrapper wow flipInX" style="visibility: visible; animation-name: flipInX;">
+                    <div class="client-logo">
+                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

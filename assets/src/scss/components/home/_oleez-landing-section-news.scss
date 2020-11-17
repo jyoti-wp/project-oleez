@@ -1,7 +1,8 @@
 .oleez-landing-section-news{
-        padding-left: 212px;
+    padding-top: 130px;
+    padding-bottom: 125px;
 
-    .oleez-landing-section-container {
+    .oleez-landing-section-content {
         padding-left: 212px;
         position: relative;
     }
@@ -14,18 +15,7 @@
         padding-top: 11px;
     }
 
-    .oleez-landing-section-verticals::after {
-        content: "";
-        display: inline-block;
-        width: 1px;
-        position: absolute;
-        top: 50px;
-        left: 11px;
-        bottom: 0;
-        background-color: #f8f4eb;
-    }
-
-    .oleez-landing-section-verticals .number {
+    .number {
         font-size: 20px;
         color: #f7b500;
         line-height: 1;
@@ -37,6 +27,7 @@
         font-size: 30px;
         line-height: 1.33;
         font-weight: 500;
+        padding-bottom: 10px;
     }
 
     p {
@@ -44,4 +35,75 @@
         line-height: 1.67;
         margin-bottom: 62px;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        .news-card {
+            padding: 32px 24px;
+            background-color: #f9f9f9;
+            height: 100%;
+            position: relative;
+        }
+
+        .card-body {
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+        }
+
+        .author-info {
+            margin-bottom: 48px;
+        }
+
+        .media {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .media-body {
+            flex: 1;
+        }
+
+        .author-name {
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        .news-post-date {
+            font-size: 10px;
+            line-height: 1.2;
+            margin-bottom: 0;
+        }
+
+        .post-meta {
+            font-size: 12px;
+            line-height: 2.08;
+            margin-bottom: 4px;
+        }
+
+        .post-category {
+            color: #f7b500;
+        }
+
+        .post-title {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 1.47;
+            margin-bottom: 21px;
+        }
+
+        .post-permalink {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 2.08;
+            color: inherit;
+        }
+    }
+
 }

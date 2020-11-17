@@ -120,9 +120,6 @@ body {
     padding-left: 13.25rem;
     position: relative; }
   .oleez-landing-section-about .oleez-landing-section-verticals {
-    visibility: visible;
-    -webkit-animation-name: fadeIn;
-            animation-name: fadeIn;
     position: absolute;
     left: 0;
     top: 0;
@@ -152,8 +149,7 @@ body {
     .oleez-landing-section-about .column p {
       font-size: 0.9375rem;
       line-height: 1.67;
-      margin-bottom: 0.625rem;
-      margin-top: 0.3125rem; }
+      margin-bottom: 0.625rem; }
   .oleez-landing-section-about .landing-about-feature {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
@@ -170,10 +166,17 @@ body {
       font-size: 0.875rem;
       line-height: 1.71;
       font-weight: 300; }
+  .oleez-landing-section-about .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
 
 .oleez-landing-section-news {
-  padding-left: 13.25rem; }
-  .oleez-landing-section-news .oleez-landing-section-container {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-news .oleez-landing-section-content {
     padding-left: 13.25rem;
     position: relative; }
   .oleez-landing-section-news .oleez-landing-section-verticals {
@@ -182,16 +185,7 @@ body {
     top: 0;
     height: 100%;
     padding-top: 0.6875rem; }
-  .oleez-landing-section-news .oleez-landing-section-verticals::after {
-    content: "";
-    display: inline-block;
-    width: 1px;
-    position: absolute;
-    top: 3.125rem;
-    left: 0.6875rem;
-    bottom: 0;
-    background-color: #f8f4eb; }
-  .oleez-landing-section-news .oleez-landing-section-verticals .number {
+  .oleez-landing-section-news .number {
     font-size: 1.25rem;
     color: #f7b500;
     line-height: 1;
@@ -200,14 +194,106 @@ body {
   .oleez-landing-section-news h2 {
     font-size: 1.875rem;
     line-height: 1.33;
-    font-weight: 500; }
+    font-weight: 500;
+    padding-bottom: 0.625rem; }
   .oleez-landing-section-news p {
     font-size: 0.9375rem;
     line-height: 1.67;
     margin-bottom: 3.875rem; }
-  @media screen and (min-width: 1200px) {
-    .wrapper {
-      padding: 0; } }
+  .oleez-landing-section-news .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+    .oleez-landing-section-news .row .news-card {
+      padding: 2rem 1.5rem;
+      background-color: #f9f9f9;
+      height: 100%;
+      position: relative; }
+    .oleez-landing-section-news .row .card-body {
+      flex: 1 1 auto;
+      min-height: 1px;
+      padding: 1.25rem; }
+    .oleez-landing-section-news .row .author-info {
+      margin-bottom: 3rem; }
+    .oleez-landing-section-news .row .media {
+      display: flex;
+      align-items: flex-start; }
+    .oleez-landing-section-news .row .media-body {
+      flex: 1; }
+    .oleez-landing-section-news .row .author-name {
+      font-size: 0.75rem;
+      line-height: 1;
+      font-weight: 400;
+      margin-bottom: 0.3125rem; }
+    .oleez-landing-section-news .row .news-post-date {
+      font-size: 0.625rem;
+      line-height: 1.2;
+      margin-bottom: 0; }
+    .oleez-landing-section-news .row .post-meta {
+      font-size: 0.75rem;
+      line-height: 2.08;
+      margin-bottom: 0.25rem; }
+    .oleez-landing-section-news .row .post-category {
+      color: #f7b500; }
+    .oleez-landing-section-news .row .post-title {
+      font-size: 1.0625rem;
+      font-weight: 500;
+      line-height: 1.47;
+      margin-bottom: 1.3125rem; }
+    .oleez-landing-section-news .row .post-permalink {
+      font-size: 0.75rem;
+      font-weight: 500;
+      line-height: 2.08;
+      color: inherit; }
+
+.oleez-landing-section-client {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-client .oleez-landing-section-content {
+    padding-left: 13.25rem;
+    position: relative; }
+  .oleez-landing-section-client .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+  .oleez-landing-section-client h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500;
+    margin-bottom: 0.625rem; }
+  .oleez-landing-section-client .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
+
+.oleez-landing-section-testimonials {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-testimonials .oleez-landing-section-content {
+    padding-left: 13.25rem;
+    position: relative; }
+  .oleez-landing-section-testimonials .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+  .oleez-landing-section-testimonials h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500;
+    margin-bottom: 0.625rem; }
+  .oleez-landing-section-testimonials .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
   @media screen and (max-width: 1200px) {
   header .wrapper {
     padding: 0; } }

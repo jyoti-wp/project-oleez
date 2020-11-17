@@ -11,7 +11,8 @@
 <?php get_template_part( 'template-parts/home/oleez-landing-section-about' ); ?>
 <?php get_template_part( 'template-parts/home/about-us' ); ?>
 <?php get_template_part( 'template-parts/home/valuable-section'); ?>
-<?php get_template_part( 'template-parts/home/our-work'); ?>
+<?php get_template_part( 'template-parts/home/oleez-landing-partners-clients'); ?>
+<?php get_template_part( 'template-parts/home/oleez-landing-section-testimonials' ); ?>
 
 </div>
 

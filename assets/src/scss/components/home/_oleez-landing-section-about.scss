@@ -8,8 +8,6 @@
     }
 
     .oleez-landing-section-verticals {
-        visibility: visible;
-        animation-name: fadeIn;
         position: absolute;
         left: 0;
         top: 0;
@@ -52,7 +50,6 @@
             font-size: 15px;
             line-height: 1.67;
             margin-bottom: 10px;
-            margin-top: 5px;
         }
     }
 
@@ -78,6 +75,14 @@
             line-height: 1.71;
             font-weight: 300;
         }
+    }
+
+    .number {
+        font-size: 1.25rem;
+        color: #f7b500;
+        line-height: 1;
+        display: inline-block;
+        margin-right: 0.8125rem;
     }
 
 }
