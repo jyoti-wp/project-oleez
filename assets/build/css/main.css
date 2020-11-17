@@ -119,7 +119,7 @@ body {
   .oleez-landing-section-about .oleez-landing-section-content {
     padding-left: 13.25rem;
     position: relative; }
-  .oleez-landing-section-about .oleez-landing-section-vertical {
+  .oleez-landing-section-about .oleez-landing-section-verticals {
     visibility: visible;
     -webkit-animation-name: fadeIn;
             animation-name: fadeIn;
@@ -177,7 +177,7 @@ body {
     padding-left: 13.25rem;
     position: relative; }
   .oleez-landing-section-news .oleez-landing-section-verticals {
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     height: 100%;
