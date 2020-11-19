@@ -1,6 +1,7 @@
 .oleez-landing-section-testimonials {
     padding-top: 130px;
     padding-bottom: 125px;
+    background-color: #f8f4eb;
 
     .oleez-landing-section-content {
         padding-left: 212px;
@@ -28,5 +29,25 @@
         line-height: 1;
         display: inline-block;
         margin-right: 0.8125rem;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+
+    .testimonial-section-content {
+        margin-bottom: 100px;
+    }
+
+    .testimonial-carousel {
+        padding-top: 19px;
+
+        .slick-nav-btn {
+            width: 45px;
+            height: 45px;
+            background-color: #000000;
+            border: 0;
+            border-radius: 0;
+        }
     }
 }

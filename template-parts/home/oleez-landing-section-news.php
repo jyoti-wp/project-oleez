@@ -8,7 +8,7 @@
             <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Recent News &amp; Stories.</h2>
             <p class="news-section-subtitle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Share your stories and news with everyone.</p>
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="column">
                     <div class="news-card news-card-1 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="card-body">
                             <div class="author-info media">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="column">
                     <div class="news-card news-card-2 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="card-body">
                             <div class="author-info media">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="column">
                     <div class="news-card news-card-3 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="card-body">
                             <div class="author-info media">
