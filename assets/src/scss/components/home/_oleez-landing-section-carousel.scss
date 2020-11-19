@@ -1,4 +1,4 @@
-.oleez-landing-section-about {
+.oleez-landing-section-carousel {
     padding-top: 130px;
     padding-bottom: 125px;
 
@@ -63,17 +63,16 @@
             border-style: none;
         }
 
-        h5 {
-            line-height: 1.1;
-            margin-bottom: 13px;
-            font-size: 20px;
-            font-weight: 500;
+        h2 {
+            line-height: 20px;
+            font-weight: 700;
         }
 
         p {
-            font-size: 14px;
-            line-height: 1.71;
+            font-size: 16px;
+            line-height: 28px;
             font-weight: 300;
+            padding: 10px 0px;
         }
     }
 
