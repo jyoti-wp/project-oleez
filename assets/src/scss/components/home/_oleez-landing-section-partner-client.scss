@@ -1,6 +1,7 @@
 .oleez-landing-section-client {
     padding-top: 130px;
     padding-bottom: 125px;
+    background-color: #f8f4eb;
 
     .oleez-landing-section-content {
         padding-left: 212px;
@@ -20,6 +21,26 @@
         line-height: 1.33;
         font-weight: 500;
         margin-bottom: 10px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        .column {
+            padding-top: 15px;
+        padding-bottom: 15px;
+        }
+
+        .client-logo {
+            border: 1px solid #f1e2c2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 36px 28px;
+        }
     }
 
     .number {

@@ -259,7 +259,8 @@ body {
 
 .oleez-landing-section-client {
   padding-top: 8.125rem;
-  padding-bottom: 7.8125rem; }
+  padding-bottom: 7.8125rem;
+  background-color: #f8f4eb; }
   .oleez-landing-section-client .oleez-landing-section-content {
     padding-left: 13.25rem;
     position: relative; }
@@ -274,6 +275,20 @@ body {
     line-height: 1.33;
     font-weight: 500;
     margin-bottom: 0.625rem; }
+  .oleez-landing-section-client .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+    .oleez-landing-section-client .row .column {
+      padding-top: 0.9375rem;
+      padding-bottom: 0.9375rem; }
+    .oleez-landing-section-client .row .client-logo {
+      border: 1px solid #f1e2c2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.25rem 1.75rem; }
   .oleez-landing-section-client .number {
     font-size: 1.25rem;
     color: #f7b500;
@@ -317,7 +332,45 @@ body {
       background-color: #000000;
       border: 0;
       border-radius: 0; }
-    @media screen and (max-width: 1200px) {
+  .oleez-landing-section-testimonials .landing-testimonial-carousel {
+    position: relative;
+    display: block; }
+    .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-list {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+    .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-track {
+      opacity: 1;
+      width: 112.25rem;
+      transform: translate3d(0px, 0px, 0px); }
+  .oleez-landing-section-testimonials .landing-testimonial-card {
+    width: 23.5625rem;
+    margin-right: 4.5rem;
+    float: left; }
+    .oleez-landing-section-testimonials .landing-testimonial-card .media {
+      display: flex;
+      align-items: flex-start; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media .media-body {
+        flex: 1; }
+        .oleez-landing-section-testimonials .landing-testimonial-card .media .media-body .testimonial-card-content p {
+          font-size: 1.125rem;
+          font-weight: 300;
+          line-height: 1.44;
+          color: #000000;
+          margin-bottom: 2.75rem; }
+          .oleez-landing-section-testimonials .landing-testimonial-card .media .media-body .testimonial-card-content p h6 {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 0.75;
+            color: #080808;
+            margin-bottom: 0; }
+        .oleez-landing-section-testimonials .landing-testimonial-card .media .media-body .testimonial-card-company p {
+          font-size: 0.75rem;
+          line-height: 2.08;
+          margin-bottom: 0; }
+        @media screen and (max-width: 1200px) {
   header .wrapper {
     padding: 0; } }
 

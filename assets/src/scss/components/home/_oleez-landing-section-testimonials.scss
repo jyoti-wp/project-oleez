@@ -50,4 +50,63 @@
             border-radius: 0;
         }
     }
+
+    .landing-testimonial-carousel {
+        position: relative;
+        display: block;
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-track {
+            opacity: 1;
+            width: 1796px;
+            transform: translate3d(0px, 0px, 0px);
+        }
+    }
+
+    .landing-testimonial-card {
+        width: 377px;
+        margin-right: 72px;
+        float: left;
+
+        .media {
+            display: flex;
+            align-items: flex-start;
+
+            .media-body {
+                flex: 1;
+
+                .testimonial-card-content p{
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 1.44;
+                    color: #000000;
+                    margin-bottom: 44px;
+            
+                    h6 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 0.75;
+                        color: #080808;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .testimonial-card-company p {
+                    font-size: 12px;
+                    line-height: 2.08;
+                    margin-bottom: 0;
+                }
+
+            }
+        }
+
+    }
+
 }
