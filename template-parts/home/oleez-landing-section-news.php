@@ -8,60 +8,31 @@
             <h2 class="section-title" style="">Recent News &amp; Stories.</h2>
             <p class="news-section-subtitle" style="">Share your stories and news with everyone.</p>
             <div class="row">
-                <div class="column">
-                    <div class="news-card" style="">
-                        <div class="card-body">
-                            <div class="author-info media">
-                                <img src="assets/images/Team_1_Copy_2@2x.jpg" alt="author" class="author-avatar">
-                                <div class="media-body">
-                                    <h6 class="author-name">Posted by Colabrio</h6>
-                                    <p class="news-post-date">July 5, 2019</p>
-                                </div>
-                            </div>
-                            <div class="post-meta">
-                                <span class="post-category">Digital Strategy</span>
-                            </div>
-                            <h5 class="post-title">The Ultimate Guide to Make Your WordPress Journal.</h5>
-                            <a href="#!" class="post-permalink">Read more </a>
-                        </div>
+<!-- <?php 
+    $i = 0;
+    while ($i <= 2) :
+        ?> <div class="column">
+        <div class="news-card" style="">
+            <div class="card-body">
+                <div class="author-info media">
+                    <img src="assets/images/Team_1_Copy_2@2x.jpg" alt="author" class="author-avatar">
+                    <div class="media-body">
+                        <h6 class="author-name">Posted by Colabrio</h6>
+                        <p class="news-post-date">July 5, 2019</p>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="news-card news-card-2 " style="">
-                        <div class="card-body">
-                            <div class="author-info media">
-                                <img src="assets/images/Team_2_Copy_2@2x.jpg" alt="author" class="author-avatar">
-                                <div class="media-body">
-                                    <h6 class="author-name">Posted by Stormie</h6>
-                                    <p class="news-post-date">July 5, 2019</p>
-                                </div>
-                            </div>
-                            <div class="post-meta">
-                                <span class="post-category">Personal</span>
-                            </div>
-                            <h5 class="post-title">The Highly Contemporary UI/UX Design from a london.</h5>
-                            <a href="#!" class="post-permalink">Read more </a>
-                        </div>
-                    </div>
+                <div class="post-meta">
+                    <span class="post-category">Digital Strategy</span>
                 </div>
-                <div class="column">
-                    <div class="news-card news-card-3" style="">
-                        <div class="card-body">
-                            <div class="author-info media">
-                                <img src="assets/images/Team_3_Copy_2@2x.jpg" alt="author" class="author-avatar">
-                                <div class="media-body">
-                                    <h6 class="author-name">Posted by Angela</h6>
-                                    <p class="news-post-date">July 5, 2019</p>
-                                </div>
-                            </div>
-                            <div class="post-meta">
-                                <span class="post-category">Personal</span>
-                            </div>
-                            <h5 class="post-title">A Color Exercise for our Brand’s Illustration </h5>
-                            <a href="#!" class="post-permalink">Read more </a>
-                        </div>
-                    </div>
-                </div>
+                <h5 class="post-title">The Ultimate Guide to Make Your WordPress Journal.</h5>
+                <a href="#!" class="post-permalink">Read more </a>
+            </div>
+        </div>
+    </div>
+    <?php 
+    $i++; 
+endwhile;
+?> -->
             </div>
         </div>
         
@@ -91,3 +62,5 @@
 <!-- .entry-meta -->
     </div>
 </section>
+
+

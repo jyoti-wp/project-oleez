@@ -1,11 +1,11 @@
 <section class="oleez-landing-section-carousel">
     <div class="wrapper">
         <div class="oleez-landing-section-content">
-            <div class="oleez-landing-section-verticals wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <div class="oleez-landing-section-verticals" style="">
                 <span class="number">01</span> 
-                <img src="/assets/src/images/ezgif.com-gif-maker (1).png" alt="ollez" height="12px">
+                <img src="/assets/src/images/ezgif.com-gif-maker (1).png" alt="oleez" height="12px">
             </div>
-            <div class="row landing-about-content wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row landing-about-content" style="">
                 <div class="column">
                     <h2>We help and solve your business problem.</h2>
                 </div>
