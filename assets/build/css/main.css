@@ -447,7 +447,59 @@ body {
     background-color: #000000;
     border: 0;
     border-radius: 0; }
-  @media screen and (max-width: 1200px) {
+
+.oleez-landing-section-team {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-team .oleez-landing-section-content {
+    padding-left: 13.25rem;
+    position: relative; }
+  .oleez-landing-section-team .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+  .oleez-landing-section-team .number {
+    font-size: 1.25rem;
+    color: #f7b500;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.8125rem; }
+  .oleez-landing-section-team .landing-team-content {
+    margin-bottom: 3.25rem; }
+  .oleez-landing-section-team .column {
+    flex: 0 0 50%;
+    max-width: 50%; }
+    .oleez-landing-section-team .column .section-title {
+      font-size: 1.875rem;
+      line-height: 1.33;
+      font-weight: 500; }
+    .oleez-landing-section-team .column p {
+      font-size: 0.9375rem;
+      line-height: 1.67;
+      margin-bottom: 0.625rem; }
+  .oleez-landing-section-team .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+    .oleez-landing-section-team .row .team-card-name {
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 0.625rem; }
+    .oleez-landing-section-team .row .team-card-job {
+      font-size: 0.875rem;
+      line-height: 1;
+      margin-bottom: 1rem; }
+    .oleez-landing-section-team .row .team-card-social-links a {
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-right: 0.625rem;
+      color: #100e0e; }
+    @media screen and (max-width: 1200px) {
   header .wrapper {
     padding: 0; } }
 
