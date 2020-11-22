@@ -1,0 +1,103 @@
+.oleez-landing-section-projects {
+    padding-top: 130px;
+    padding-bottom: 125px;
+    background-color: #f8f4eb;
+
+    .oleez-landing-section-content {
+        padding-left: 212px;
+        position: relative;
+    }
+
+    .oleez-landing-section-verticals {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding-top: 11px;
+
+        .number {
+            font-size: 20px;
+            color: #f7b500;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 13px;
+        }
+
+        .section-title {
+            font-size: 30px;
+            line-height: 1.33;
+            font-weight: 500;
+            margin-bottom: 53px;
+            display: flex;
+            align-items: center;
+            justify-content: s
+        }
+    }
+
+    .slick-slider {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .landing-project-card {
+        width: 576px;
+        margin-right: 23px;
+        overflow: hidden;
+    }
+
+    .card-img-overlay {
+        left: auto;
+        width: 0;
+        background-color: #000;
+        padding-top: 170px;
+        width: 236px;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in-out;
+        position: absolute;
+        padding: 1.25rem;
+    }
+
+    .project-category {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.43;
+        color: #ffffff;
+    }
+
+    .project-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+        color: #ffffff;
+    }
+
+    .slick-navbtn-wrapper {
+        padding-top: 19px;
+    }
+
+    .slick-nav-btn {
+        width: 45px;
+        height: 45px;
+        background-color: #000000;
+        border: 0;
+        border-radius: 0;
+    }
+}
