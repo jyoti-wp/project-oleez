@@ -4,6 +4,7 @@
 /**
  * Front end styles.
  */
+
 header .logo-image {
   padding: 1.25rem; }
 
@@ -28,6 +29,28 @@ header .menu-item a {
   font-family: "Heebo", sans-serif;
   font-weight: 500;
   font-size: 1.125rem; }
+
+.menu-header-menu-container ul.menu {
+  display: flex;
+  padding: 1.25rem 0; }
+  .menu-header-menu-container ul.menu > li.menu-item {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    color: black; }
+    .menu-header-menu-container ul.menu > li.menu-item a {
+      font-weight: 600;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      letter-spacing: 0.8px;
+      padding: 0.75rem 0.9375rem;
+      display: inline-block;
+      margin: 0 0.625rem; }
+
+.menu-header-menu-container ul.sub-menu {
+  display: none;
+  background-color: #fff;
+  position: absolute; }
 
 .main-footer {
   background-color: black; }
@@ -515,9 +538,28 @@ body {
       line-height: 1;
       margin-right: 0.625rem;
       color: #100e0e; }
+    @media screen and (min-width: 375px) {
+    header img {
+      width: 5rem; } }
+    @media screen and (min-width: 1200px) {
+      .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
+        display: block; } }
+    @media screen and (max-width: 375px) {
+  header {
+    overflow: hidden;
+    margin-bottom: 0px; } }
     @media screen and (max-width: 1200px) {
-  header .wrapper {
-    padding: 0; } }
+  .burger-menu-icon {
+    display: none; }
+    .menu-header-menu-container ul.menu {
+      position: absolute;
+      display: block;
+      top: 4.75rem;
+      background: white;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid #cbcbcb;
+      display: none; } }
 
 
 /*# sourceMappingURL=main.css.map*/

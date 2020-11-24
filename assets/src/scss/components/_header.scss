@@ -1,18 +1,24 @@
 header{
 
+	@media screen and (max-width: 375px) {
+		overflow: hidden;
+		margin-bottom: 0px;
+	}
+
+	.wrapper {
+
+		@media screen and (max-width: 375px){
+			
+		}
+	}
+
 	.logo-image {
 		padding: 20px;
 	}
 
 	.header-container {
 		display: flex;
-    		justify-content: space-between;
-	}
-
-	.wrapper {
-		@media screen and (max-width: $desktop ) {
-			padding: 0;
-		}
+		justify-content: space-between;
 	}
 
 	.menu {
@@ -29,11 +35,77 @@ header{
 
 	img {
 		width: auto;
+
+		@media screen and (min-width: 375px) {
+			width: 80px;
+		}
 	}
 
 	.menu-item a{
 		font-family: "Heebo", sans-serif;
 		font-weight: 500;
 		font-size: 18px;
+	}
+}
+
+.burger-menu-icon {
+
+	@media screen and (max-width: $desktop ) {
+		display: none;
+	}
+}
+
+.menu-header-menu-container {
+
+	ul.menu {
+		display: flex;
+		padding: 20px 0;
+
+		@media screen and (max-width: $desktop ) {
+			position: absolute;
+			display: block;
+			top: 4.75rem;
+			background: white;
+			left: 0;
+			width: 100%;
+			border-bottom: 1px solid #cbcbcb;
+			display: none;
+		}
+
+		// Direct child of ul.
+		> li.menu-item {
+			position: relative;
+			text-decoration: none;
+			list-style: none;
+			color: black;
+
+			// links.
+			a {
+				font-weight: 600;
+				font-size: 12px;
+				line-height: 16px;
+				letter-spacing: 0.8px;
+				padding: 12px 15px;
+				display: inline-block;
+				margin: 0 10px;
+			}
+
+			@media screen and (min-width: $desktop ) {
+				// On hover of menu item, show submenu.
+				&:hover {
+					ul.sub-menu {
+						display: block;
+					}
+				}
+			}
+		}
+
+	}
+
+	// Submenu
+	ul.sub-menu {
+		display: none;
+		background-color: $white;
+		position: absolute;
 	}
 }

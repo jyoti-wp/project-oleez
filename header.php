@@ -28,7 +28,7 @@
 					<div class="header-menu-wrap">
 						<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 					</div>
-<!--					<div class="burger-menu-icon">☰</div>-->
+					<div class="burger-menu-icon">☰</div>
 				</div>
 			</div>
 		</div>
