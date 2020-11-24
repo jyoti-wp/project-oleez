@@ -139,24 +139,13 @@ body {
   color: #100e0e; }
 
 .oleez-landing-section-carousel {
-  padding-top: 8.125rem;
-  padding-bottom: 7.8125rem; }
+  margin-right: 0.9375rem;
+  overflow: hidden; }
   .oleez-landing-section-carousel .oleez-landing-section-content {
     padding-left: 13.25rem;
     position: relative; }
-  .oleez-landing-section-carousel .oleez-landing-section-verticals {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    padding-top: 0.6875rem; }
   .oleez-landing-section-carousel .landing-about-content {
     margin-bottom: 4.375rem; }
-  .oleez-landing-section-carousel .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem; }
   .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
     font-size: 1.25rem;
     color: #f7b500;
@@ -164,8 +153,10 @@ body {
     display: inline-block;
     margin-right: 0.8125rem; }
   .oleez-landing-section-carousel .column {
-    flex: 0 0 50%;
-    max-width: 50%; }
+    flex: none;
+    max-width: 100%;
+    margin-left: 2.1875rem;
+    margin-top: 0; }
     .oleez-landing-section-carousel .column h2 {
       font-size: 1.875rem;
       line-height: 1.33;
@@ -543,7 +534,18 @@ body {
       width: 5rem; } }
     @media screen and (min-width: 1200px) {
       .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
-        display: block; } }
+        display: block; }
+    .oleez-landing-section-carousel .oleez-landing-section-verticals {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      padding-top: 0.6875rem; }
+    .oleez-landing-section-carousel .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -0.9375rem;
+      margin-left: -0.9375rem; } }
     @media screen and (max-width: 375px) {
   header {
     overflow: hidden;
@@ -559,7 +561,21 @@ body {
       left: 0;
       width: 100%;
       border-bottom: 1px solid #cbcbcb;
-      display: none; } }
+      display: none; }
+    .oleez-landing-section-carousel {
+      padding-top: 8.125rem;
+      padding-bottom: 7.8125rem; } }
+    @media screen and (max-width: 640px) {
+      .oleez-landing-section-carousel .oleez-landing-section-content {
+        padding-left: 0.625rem; }
+    .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+      display: none; }
+      .oleez-landing-section-carousel .column {
+        flex: 0 0 50%;
+        max-width: 50%; }
+      .oleez-landing-section-carousel .landing-about-feature {
+        flex: none;
+        max-width: 100%; } }
 
 
 /*# sourceMappingURL=main.css.map*/
