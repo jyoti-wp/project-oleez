@@ -24,5 +24,10 @@ body {
 	font-size: 1rem;
 	font-weight: 500;
     line-height: 1.5;
-    color: #100e0e;
+	color: #100e0e;
+	
+	@media screen and (min-width: $tablet) {
+		overflow: hidden;
+    	margin: 0 auto;
+	}
 }

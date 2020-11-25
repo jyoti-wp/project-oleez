@@ -1,7 +1,7 @@
-<section class="oleez-landing-section oleez-landing-section-projects">
+<section class="oleez-landing-section-projects">
     <div class="wrapper">
-        <div class="oleez-landing-section oleez-landing-section-content">
-            <div class="oleez-landing-section oleez-landing-section-verticals " style="">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals " style="">
                 <span class="number">02</span> 
                 <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
             </div>

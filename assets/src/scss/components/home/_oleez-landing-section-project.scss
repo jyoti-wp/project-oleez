@@ -46,6 +46,10 @@
         line-height: 2;
         color: #100e0e;
         text-decoration: underline;
+
+        @media screen and (min-width: $tablet) {
+            padding-right: 15px;
+        }
     }
 
     .oleez-landing-section-carousel {

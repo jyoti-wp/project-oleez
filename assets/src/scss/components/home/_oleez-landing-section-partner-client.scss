@@ -5,6 +5,10 @@
 
     .oleez-landing-section-content {
         padding-left: 50px;
+
+        @media screen and (min-width: $tablet) {
+            padding-left: 112px;
+        }
         
     }
 
@@ -45,6 +49,11 @@
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
+            flex-wrap: wrap;    
+        }
 
         .column {
             padding-top: 15px;
