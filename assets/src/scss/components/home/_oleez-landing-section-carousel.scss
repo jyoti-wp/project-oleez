@@ -1,31 +1,28 @@
 .oleez-landing-section-carousel {
     margin-right: 15px;
     overflow: hidden;
-
-
-    @media screen and (max-width: $desktop ) {
-        padding-top: 130px;
-        padding-bottom: 125px;
-    }
+    padding-top: 130px;
+    padding-bottom: 125px;
 
     .oleez-landing-section-content {
-        padding-left: 212px;
         position: relative;
 
-            @media screen and (max-width: $mobile) {
-                    padding-left: 10px;
+            @media screen and (min-width: $tablet) {
+                padding-left: 130px;
+                position: relative;
+                }
+
+                @media screen and (min-width: $desktop) {
+                    padding-left: 212px;
                 }
         }
 
     .oleez-landing-section-verticals {
-
-        @media screen and (min-width: $desktop ) {
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 100%;
-            padding-top: 11px;
-        }
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding-top: 11px;
 
         img {
 
@@ -33,7 +30,20 @@
                 display: none;
             }
         }
+
+        .number {
+            font-size: 1.25rem;
+            color: #f7b500;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 0.8125rem;
+        }
+
+        img {
+            display: none;
+        }
     }
+
 
     .landing-about-content {
         margin-bottom: 70px;
@@ -46,7 +56,7 @@
     .row {
         margin-left: 45px;
 
-        @media screen and (min-width: $desktop) {
+        @media screen and (min-width: $tablet) {
             display: flex;
             flex-wrap: wrap;
             margin-right: -15px;
@@ -54,23 +64,20 @@
         }
     }
 
-    .oleez-landing-section-verticals .number {
-        font-size: 20px;
-        color: #f7b500;
-        line-height: 1;
-        display: inline-block;
-        margin-right: 13px;
-    }
-
     .column {
         flex: none;
         max-width: 100%;
         margin-top: 0;
+        
+
+        @media screen and (min-width: $tablet) {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
 
         h2 {
             font-size: 30px;
             line-height: 1.33;
-            font-weight: 500;
             margin-bottom: 10px;
         }
 
@@ -107,13 +114,5 @@
             font-weight: 300;
             padding: 10px 0px;
         }
-    }
-
-    .number {
-        font-size: 1.25rem;
-        color: #f7b500;
-        line-height: 1;
-        display: inline-block;
-        margin-right: 0.8125rem;
     }
 }

@@ -7,10 +7,10 @@
             </div>
             <div class="row landing-about-content" style="">
                 <div class="column">
-                    <h2>We help and solve your business problem.</h2>
+                    <h2>We help and solve</br> your business</br> problem.</h2>
                 </div>
                 <div class="column">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis</br> delectus dolorem possimus, dolor rerum.</p>
                 </div>
             </div>
             <div class="row">
