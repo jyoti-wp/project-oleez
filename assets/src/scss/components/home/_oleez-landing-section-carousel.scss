@@ -44,6 +44,7 @@
     }
 
     .row {
+        margin-left: 45px;
 
         @media screen and (min-width: $desktop) {
             display: flex;
@@ -64,13 +65,7 @@
     .column {
         flex: none;
         max-width: 100%;
-        margin-left: 35px;
         margin-top: 0;
-        @media screen and (max-width: $mobile) {
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-
 
         h2 {
             font-size: 30px;

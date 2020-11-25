@@ -1,92 +1,54 @@
-.main-footer {
-    background-color: black;
+.oleez-footer {
+    background-color: #0e0e0f;
+    color: #ffffff;
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-
-    .footer-box {
+    .footer-content {
         padding-top: 90px;
         padding-bottom: 45px;
     }
 
-    .column {
-        flex: 0 0 50%;
-        max-width: 50%;
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
 
-        p {
-            text-align: left;
-            font-size: 22px;
-            line-height: 26px;
+    .column {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        .footer-logo {
+            height: 30px;
+            margin-bottom: 19px;
+        }
+
+        .footer-intro-text {
+            font-size: 18px;
+            line-height: 1.5;
             margin-bottom: 26px;
-            font-family: "Heebo", sans-serif;
-            max-width: 295px;
-            color: white;
+            max-width: 288px;
         }
     }
-
-    img {
-        height: 30px;
-        margin-bottom: 19px;
-    }
-
 
     .footer-social-links {
-        display: flex;
-        font-family: "Heebo", sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #100e0e;
-        text-align: left;
-    }
+        display: block;
 
-    .footer-social-links a {
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 1;
-        color: white;
-        margin-right: 15px;
-    }
-
-    .footer-widget-text {
-        flex: 0 0 50%;
-        max-width: 50%;
-        margin-bottom: 40px;
-
-        h6 {
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 1.5;
-            margin-bottom: 6px;
-            color: #f7b500;
+        .footer-social-links a {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1;
+            color: white;
+            margin-right: 10px;
         }
-
     }
-
-    .column .widget-content p {
-        color: white;
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-
-
-
 
     .footer-text {
-        display: flex;
-        justify-content: space-between;
-        padding: 45px 0px;
-
-        text-align: center;
-        font-size: 14px;
-        line-height: 1.29;
-        color: white;
-        font-family: "Heebo", sans-serif;
+        margin-bottom: 40px
     }
 
+    .footer-text p {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }

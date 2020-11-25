@@ -1,7 +1,7 @@
-<section class="oleez-landing-section-projects">
+<section class="oleez-landing-section oleez-landing-section-projects">
     <div class="wrapper">
-        <div class="oleez-landing-section-content">
-            <div class="oleez-landing-section-verticals " style="">
+        <div class="oleez-landing-section oleez-landing-section-content">
+            <div class="oleez-landing-section oleez-landing-section-verticals " style="">
                 <span class="number">02</span> 
                 <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
             </div>
@@ -30,7 +30,7 @@
                             <h5 class="project-title">BootstrapDash</h5>
                         </div>
                     </div>
-                    <div class="card landing-project-card slick-slide" data-slick-index="" aria-hidden="" tabindex="" style="">
+                    <div class="landing-project-card slick-slide" data-slick-index="" aria-hidden="" tabindex="" style="">
                         <img src="assets/images/Project_4@2x.jpg" class="card-img" alt="Project 1">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>

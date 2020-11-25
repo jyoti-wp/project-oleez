@@ -4,8 +4,8 @@
     background-color: #f8f4eb;
 
     .oleez-landing-section-content {
-        padding-left: 212px;
-        position: relative;
+        padding-left: 50px;
+        
     }
 
     .oleez-landing-section-verticals {
@@ -14,24 +14,41 @@
         top: 0;
         height: 100%;
         padding-top: 11px;
+
+        .number {
+            font-size: 1.25rem;
+            color: #f7b500;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 0.8125rem;
+        }
+
+        .oleez-landing-section-verticals img {
+            display: none;
+        }
     }
 
-    h2 {
+    .section-title {
         font-size: 30px;
         line-height: 1.33;
         font-weight: 500;
-        margin-bottom: 10px;
+    }
+
+    .client-section-subtitle {
+        font-size: 15px;
+        line-height: 2;
+        margin-bottom: 48px;
     }
 
     .row {
-        display: flex;
+        display: inline-block;
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
 
         .column {
             padding-top: 15px;
-        padding-bottom: 15px;
+            padding-bottom: 15px;
         }
 
         .client-logo {
@@ -40,14 +57,13 @@
             align-items: center;
             justify-content: center;
             padding: 36px 28px;
+
+            .client-logo img {
+                max-width: 100%;
+                -o-object-fit: contain;
+                object-fit: contain;
+            }
         }
     }
 
-    .number {
-        font-size: 1.25rem;
-        color: #f7b500;
-        line-height: 1;
-        display: inline-block;
-        margin-right: 0.8125rem;
-    }
 }

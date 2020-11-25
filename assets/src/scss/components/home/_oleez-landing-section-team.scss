@@ -3,8 +3,7 @@
     padding-bottom: 125px;
 
     .oleez-landing-section-content {
-        padding-left: 212px;
-        position: relative;
+        padding-left: 50px;
     }
 
     .oleez-landing-section-verticals {
@@ -13,58 +12,62 @@
         top: 0;
         height: 100%;
         padding-top: 11px;
-    }
 
-    .number {
-        font-size: 20px;
-        color: #f7b500;
-        line-height: 1;
-        display: inline-block;
-        margin-right: 13px;
+        .number {
+            font-size: 20px;
+            color: #f7b500;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 13px;
+        }
+    
+        img {
+            position: relative;
+            top: -3px;
+        }
     }
 
     .landing-team-content {
         margin-bottom: 52px;
     }
 
-    .column {
-        flex: 0 0 50%;
-        max-width: 50%;
-
-
-        .section-title {
-            font-size: 30px;
-            line-height: 1.33;
-            font-weight: 500;
-        }
-
-        p{
-            font-size: 15px;
-            line-height: 1.67;
-            margin-bottom: 10px;
-        }
-    }
-
     .row {
-        display: flex;
-        flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
+    }
 
-        .team-card-name {
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 1;
-            margin-bottom: 10px;
-        }
+    .section-title {
+        font-size: 30px;
+        line-height: 1.33;
+        font-weight: 500;
+    }
 
-        .team-card-job {
-            font-size: 14px;
-            line-height: 1;
-            margin-bottom: 16px;
-        }
+    .landing-team-card {
+        margin-bottom: 3rem;
+    }
 
-        .team-card-social-links a {
+    .team-card-img {
+        width: 100%;
+        margin-bottom: 39px;
+    }
+
+    .team-card-name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    .team-card-job {
+        font-size: 14px;
+        line-height: 1;
+        margin-bottom: 16px;
+    }
+
+    .team-card-social-links {
+        display: flex;
+
+        a {
             font-size: 14px;
             font-weight: 700;
             line-height: 1;
@@ -72,4 +75,5 @@
             color: #100e0e;
         }
     }
+
 }

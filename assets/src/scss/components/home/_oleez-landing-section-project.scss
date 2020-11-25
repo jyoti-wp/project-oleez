@@ -3,9 +3,17 @@
     padding-bottom: 125px;
     background-color: #f8f4eb;
 
+    @media screen and (max-width: $desktop) {
+
+    }
+
     .oleez-landing-section-content {
-        padding-left: 212px;
-        position: relative;
+        padding-left: 50px;
+
+        @media screen and (min-width: $desktop) {
+            padding-left: 212px;
+            position: relative;
+        }
     }
 
     .oleez-landing-section-verticals {

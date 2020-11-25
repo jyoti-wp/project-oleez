@@ -1,7 +1,7 @@
 <section class="oleez-landing-section-team">
     <div class="wrapper">
         <div class="oleez-landing-section-content">
-            <div class="oleez-landing-section" style="">
+            <div class="oleez-landing-section-verticals " style="">
                 <span class="number">03</span> <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
             </div>
             <div class="row landing-team-content" style="">
