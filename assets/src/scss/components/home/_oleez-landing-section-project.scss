@@ -3,6 +3,13 @@
     padding-bottom: 7.8125rem;
     background-color: #f8f4eb;
 
+    .wrapper {
+
+        @media screen and (min-width: $tablet) {
+            max-width: 720px;
+        }
+    }
+
     .oleez-landing-section-content {
         padding-left: 50px;
 
@@ -32,8 +39,19 @@
         }
     }
 
+    .oleez-landing-section-verticals::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        position: absolute;
+        top: 50px;
+        left: 11px;
+        bottom: 0;
+        background-color: #dadada;
+    }
+
     .section-title {
-        margin-bottom: 53px;
+        margin-bottom: 55px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -41,7 +59,7 @@
     }
 
     .all-projects-link {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 2;
         color: #100e0e;
@@ -52,64 +70,59 @@
         }
     }
 
-    .oleez-landing-section-carousel {
+    .slick-list {
         position: relative;
-            display: block;
-            box-sizing: border-box;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
 
-        .slick-list {
-            position: relative;
-            display: block;
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-        }
+    .slick-track {
+        opacity: 1;
+            width: 1180px;
+            transform: translate3d(0px, 0px, 0px);
+    }
 
-        .slick-track {
-            opacity: 1;
-                width: 1180px;
-                transform: translate3d(0px, 0px, 0px);
-        }
+    .landing-project-card {
+        border: 0;
+        border-radius: 0;
+        margin-right: 23px;
+        overflow: hidden;
+        
 
-        .landing-project-card {
-            border: 0;
-            border-radius: 0;
+        @media screen and (min-width: $tablet) {
+            width: 363px;
             margin-right: 23px;
             overflow: hidden;
-            
-
-            @media screen and (min-width: $tablet) {
-                width: 363px;
-                margin-right: 23px;
-                overflow: hidden;
-            }
-
-            img {
-                height: 300px;
-                border-radius: 0;
-                -o-object-fit: cover;
-                object-fit: cover;
-            }
         }
 
-        .card-img-overlay {
-            width: 160px;
-            padding-top: 170px;
-            position: absolute;
-            padding: 1.25rem;
-
-            .project-category {
-                font-size: 12px;
-                font-weight: 500;
-                line-height: 1.43;
-                color: #ffffff;
-            }   
-
-            .project-title {
-                width: 160px;   
-            }
+        img {
+            height: 300px;
+            border-radius: 0;
+            -o-object-fit: cover;
+            object-fit: cover;
         }
     }
+
+    .card-img-overlay {
+        width: 160px;
+        padding-top: 170px;
+        position: absolute;
+        padding: 1.25rem;
+
+        .project-category {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.43;
+            color: #ffffff;
+        }   
+
+        .project-title {
+            width: 160px;   
+        }
+    }
+    
 
     .slick-navbtn-wrapper {
         padding-top: 19px;

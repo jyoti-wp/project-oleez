@@ -3,6 +3,13 @@
     padding-bottom: 125px;
     background-color: #f8f4eb;
 
+    .wrapper {
+
+        @media screen and (min-width: $tablet) {
+            max-width: 720px;
+        }
+    }
+
     .oleez-landing-section-content {
         padding-left: 50px;
 

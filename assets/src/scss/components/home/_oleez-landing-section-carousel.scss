@@ -1,5 +1,4 @@
 .oleez-landing-section-carousel {
-    margin-right: 15px;
     overflow: hidden;
     padding-top: 130px;
     padding-bottom: 125px;
@@ -9,7 +8,6 @@
 
             @media screen and (min-width: $tablet) {
                 padding-left: 130px;
-                position: relative;
                 }
 
                 @media screen and (min-width: $desktop) {
@@ -24,6 +22,10 @@
         height: 100%;
         padding-top: 11px;
 
+        @media screen and (min-width: $desktop) {
+            margin-top: 15px;
+        }
+
         img {
 
             @media screen and (max-width: $mobile) {
@@ -32,25 +34,31 @@
         }
 
         .number {
-            font-size: 1.25rem;
+            font-size: 20px;
             color: #f7b500;
             line-height: 1;
             display: inline-block;
             margin-right: 0.8125rem;
+
+            @media screen and (min-width: $desktop) {
+                font-size: 25px;
+            }
         }
 
         img {
             display: none;
+
+            @media screen and (min-width: $desktop) {
+                    position: relative;
+                    top: -3px;
+                    display: inline;
+            }
         }
     }
 
 
     .landing-about-content {
         margin-bottom: 70px;
-
-        @media screen and (max-width: $mobile) {
-
-        }
     }
 
     .row {
@@ -79,12 +87,20 @@
             font-size: 30px;
             line-height: 1.33;
             margin-bottom: 10px;
+
+            @media screen and (min-width: $desktop) {
+                font-size: 36px;
+            }
         }
 
         p{
             font-size: 15px;
             line-height: 1.67;
             margin-bottom: 10px;
+
+            @media screen and (min-width: $desktop) {
+                margin-top: 35px;
+            }
         }
     }
 

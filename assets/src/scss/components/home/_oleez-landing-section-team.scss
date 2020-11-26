@@ -7,6 +7,10 @@
         @media screen and (min-width: $tablet) {
             max-width: 720px;
         }
+
+        @media screen and (min-width: $desktop) {
+            max-width: 1200px;
+        }
     }
 
     .oleez-landing-section-content {
@@ -14,6 +18,10 @@
 
         @media screen and (min-width: $tablet) {
             padding-left: 112px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            padding-left: 212px;
         }
     }
 
@@ -30,6 +38,10 @@
             line-height: 1;
             display: inline-block;
             margin-right: 13px;
+
+            @media screen and (min-width: $desktop) {
+                font-size: 25px;
+            }
         }
     
         img {
@@ -43,6 +55,10 @@
     }
 
     .column {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
 
         @media screen and (min-width: $tablet) {
             flex: 0 0 50%;
@@ -57,6 +73,10 @@
         @media screen and (min-width: $tablet) {
             display: flex;
             flex-wrap: wrap;
+        }
+
+        @media screen and (min-width: $desktop) {
+            flex-wrap: nowrap;
         }
     }
 

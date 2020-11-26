@@ -113,7 +113,6 @@ body {
   color: #100e0e; }
 
 .oleez-landing-section-carousel {
-  margin-right: 0.9375rem;
   overflow: hidden;
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
@@ -177,7 +176,7 @@ body {
     height: 100%;
     padding-top: 0.6875rem; }
     .oleez-landing-section-news .oleez-landing-section-verticals .number {
-      font-size: 1.25rem;
+      font-size: 1.375rem;
       color: #f7b500;
       line-height: 1;
       display: inline-block;
@@ -186,11 +185,12 @@ body {
       position: relative;
       top: -0.1875rem; }
   .oleez-landing-section-news .section-title {
-    font-size: 1.875rem;
+    font-size: 2rem;
     line-height: 1.33;
-    font-weight: 500; }
+    font-weight: 500;
+    font-weight: bolder; }
   .oleez-landing-section-news p {
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
     line-height: 1.67;
     margin-bottom: 3.875rem; }
   .oleez-landing-section-news .row {
@@ -240,30 +240,39 @@ body {
     .oleez-landing-section-news .column .media-body {
       flex: 1; }
     .oleez-landing-section-news .column .author-name {
-      font-size: 0.75rem;
+      font-size: 0.875rem;
       line-height: 1;
       font-weight: 400;
       margin-bottom: 0.3125rem; }
     .oleez-landing-section-news .column .news-post-date {
-      font-size: 0.625rem;
+      font-size: 0.75rem;
       line-height: 1.2;
       margin-bottom: 0; }
     .oleez-landing-section-news .column .post-meta {
-      font-size: 0.75rem;
+      font-size: 0.875rem;
       line-height: 2.08;
-      margin-bottom: 0.25rem; }
+      margin-bottom: 0.25rem;
+      padding-top: 1.25rem; }
     .oleez-landing-section-news .column .post-category {
       color: #f7b500; }
     .oleez-landing-section-news .column .post-title {
-      font-size: 1.0625rem;
+      font-size: 1.1875rem;
       font-weight: 500;
       line-height: 1.47;
       margin-bottom: 1.3125rem; }
     .oleez-landing-section-news .column .post-permalink {
-      font-size: 0.75rem;
-      font-weight: 500;
+      font-size: 1.125rem;
+      font-weight: bolder;
       line-height: 2.08;
-      color: inherit; }
+      color: inherit;
+      padding-top: 1.25rem; }
+    .oleez-landing-section-news .column .post-permalink::after {
+      content: "\2192";
+      display: inline-block;
+      margin-left: 0.375rem;
+      color: inherit;
+      font-size: 1.25rem;
+      transition: transform 0.3s ease-in-out; }
 
 .oleez-landing-section-client {
   padding-top: 8.125rem;
@@ -415,53 +424,58 @@ body {
     .oleez-landing-section-projects .oleez-landing-section-verticals img {
       position: relative;
       top: -0.1875rem; }
+  .oleez-landing-section-projects .oleez-landing-section-verticals::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    position: absolute;
+    top: 3.125rem;
+    left: 0.6875rem;
+    bottom: 0;
+    background-color: #dadada; }
   .oleez-landing-section-projects .section-title {
-    margin-bottom: 3.3125rem;
+    margin-bottom: 3.4375rem;
     display: flex;
     align-items: center;
     justify-content: space-between; }
   .oleez-landing-section-projects .all-projects-link {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     font-weight: 500;
     line-height: 2;
     color: #100e0e;
     text-decoration: underline; }
-  .oleez-landing-section-projects .oleez-landing-section-carousel {
+  .oleez-landing-section-projects .slick-list {
     position: relative;
     display: block;
-    box-sizing: border-box; }
-    .oleez-landing-section-projects .oleez-landing-section-carousel .slick-list {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0; }
-    .oleez-landing-section-projects .oleez-landing-section-carousel .slick-track {
-      opacity: 1;
-      width: 73.75rem;
-      transform: translate3d(0px, 0px, 0px); }
-    .oleez-landing-section-projects .oleez-landing-section-carousel .landing-project-card {
-      border: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+  .oleez-landing-section-projects .slick-track {
+    opacity: 1;
+    width: 73.75rem;
+    transform: translate3d(0px, 0px, 0px); }
+  .oleez-landing-section-projects .landing-project-card {
+    border: 0;
+    border-radius: 0;
+    margin-right: 1.4375rem;
+    overflow: hidden; }
+    .oleez-landing-section-projects .landing-project-card img {
+      height: 18.75rem;
       border-radius: 0;
-      margin-right: 1.4375rem;
-      overflow: hidden; }
-      .oleez-landing-section-projects .oleez-landing-section-carousel .landing-project-card img {
-        height: 18.75rem;
-        border-radius: 0;
-        -o-object-fit: cover;
-        object-fit: cover; }
-    .oleez-landing-section-projects .oleez-landing-section-carousel .card-img-overlay {
-      width: 10rem;
-      padding-top: 10.625rem;
-      position: absolute;
-      padding: 1.25rem; }
-      .oleez-landing-section-projects .oleez-landing-section-carousel .card-img-overlay .project-category {
-        font-size: 0.75rem;
-        font-weight: 500;
-        line-height: 1.43;
-        color: #ffffff; }
-      .oleez-landing-section-projects .oleez-landing-section-carousel .card-img-overlay .project-title {
-        width: 10rem; }
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .oleez-landing-section-projects .card-img-overlay {
+    width: 10rem;
+    padding-top: 10.625rem;
+    position: absolute;
+    padding: 1.25rem; }
+    .oleez-landing-section-projects .card-img-overlay .project-category {
+      font-size: 0.75rem;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #ffffff; }
+    .oleez-landing-section-projects .card-img-overlay .project-title {
+      width: 10rem; }
   .oleez-landing-section-projects .slick-navbtn-wrapper {
     padding-top: 1.1875rem; }
     .oleez-landing-section-projects .slick-navbtn-wrapper .slick-nav-btn {
@@ -496,6 +510,11 @@ body {
       top: -0.1875rem; }
   .oleez-landing-section-team .landing-team-content {
     margin-bottom: 3.25rem; }
+  .oleez-landing-section-team .column {
+    position: relative;
+    width: 100%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem; }
   .oleez-landing-section-team .row {
     margin-right: -0.9375rem;
     margin-left: -0.9375rem; }
@@ -533,8 +552,7 @@ body {
       overflow: hidden;
       margin: 0 auto; }
       .oleez-landing-section-carousel .oleez-landing-section-content {
-        padding-left: 8.125rem;
-        position: relative; }
+        padding-left: 8.125rem; }
       .oleez-landing-section-carousel .row {
         display: flex;
         flex-wrap: wrap;
@@ -543,26 +561,30 @@ body {
       .oleez-landing-section-carousel .column {
         flex: 0 0 50%;
         max-width: 50%; }
+    .oleez-landing-section-client .wrapper {
+      max-width: 45rem; }
       .oleez-landing-section-client .oleez-landing-section-content {
         padding-left: 7rem; }
       .oleez-landing-section-client .row {
         display: flex;
         flex-wrap: wrap; }
+    .oleez-landing-section-projects .wrapper {
+      max-width: 45rem; }
       .oleez-landing-section-projects .oleez-landing-section-content {
         padding-left: 7rem; }
       .oleez-landing-section-projects .all-projects-link {
         padding-right: 0.9375rem; }
-        .oleez-landing-section-projects .oleez-landing-section-carousel .landing-project-card {
-          width: 22.6875rem;
-          margin-right: 1.4375rem;
-          overflow: hidden; }
+      .oleez-landing-section-projects .landing-project-card {
+        width: 22.6875rem;
+        margin-right: 1.4375rem;
+        overflow: hidden; }
     .oleez-landing-section-team .wrapper {
       max-width: 45rem; }
       .oleez-landing-section-team .oleez-landing-section-content {
         padding-left: 7rem; }
-    .oleez-landing-section-team .column {
-      flex: 0 0 50%;
-      max-width: 50%; }
+      .oleez-landing-section-team .column {
+        flex: 0 0 50%;
+        max-width: 50%; }
       .oleez-landing-section-team .row {
         display: flex;
         flex-wrap: wrap; }
@@ -574,9 +596,23 @@ body {
         display: block; }
       .oleez-landing-section-carousel .oleez-landing-section-content {
         padding-left: 13.25rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-verticals {
+        margin-top: 0.9375rem; }
+        .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
+          font-size: 1.5625rem; }
+        .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+          position: relative;
+          top: -0.1875rem;
+          display: inline; }
+        .oleez-landing-section-carousel .column h2 {
+          font-size: 2.25rem; }
+        .oleez-landing-section-carousel .column p {
+          margin-top: 2.1875rem; }
       .oleez-landing-section-news .oleez-landing-section-content {
         padding-left: 13.25rem;
         position: relative; }
+      .oleez-landing-section-news .row {
+        flex-wrap: nowrap; }
       .oleez-landing-section-testimonials .oleez-landing-section-content {
         padding-left: 13.25rem;
         position: relative; }
@@ -587,7 +623,15 @@ body {
       .oleez-landing-section-testimonials .landing-testimonial-card {
         width: 23.5625rem;
         margin-right: 4.5rem;
-        float: left; } }
+        float: left; }
+    .oleez-landing-section-team .wrapper {
+      max-width: 75rem; }
+      .oleez-landing-section-team .oleez-landing-section-content {
+        padding-left: 13.25rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals .number {
+          font-size: 1.5625rem; }
+      .oleez-landing-section-team .row {
+        flex-wrap: nowrap; } }
     @media screen and (max-width: 375px) {
   header {
     overflow: hidden;
