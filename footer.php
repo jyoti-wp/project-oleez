@@ -6,7 +6,7 @@
  */
 
 ?>
-<footer class="oleez-footer" style="">
+<footer class="oleez-footer"style="">
     <div class="wrapper">
         <div class="footer-content">
             <div class="row">
@@ -22,19 +22,19 @@
                 </div>
                 <div class="column">
                     <div class="row">
-                        <div class="footer-text">
+                        <div class="footer-widget">
                             <h6 class="widget-title">PHONE</h6>
                             <p class="widget-content">+80 (0)5 12 34 95 89</p>
                         </div>
-                        <div class="footer-text">
+                        <div class="footer-widget">
                             <h6 class="widget-title">ENQUIRUES</h6>
                             <p class="widget-content">info@oleez.site</p>
                         </div>
-                        <div class="footer-text">
+                        <div class="footer-widget">
                             <h6 class="widget-title">ADDRESS</h6>
                             <p class="widget-content">33 rue Burdeau 69089 <br> Paris France</p>
                         </div>
-                        <div class="footer-text">
+                        <div class="footer-widget">
                             <h6 class="widget-title">WORK HOURS</h6>
                             <p class="widget-content">Weekdays: 09:00 - 18:00 <br> Weekends: 11:00 - 17:00</p>
                         </div>
