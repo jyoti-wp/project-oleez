@@ -9,8 +9,8 @@
             <p class="news-section-subtitle" style="">Share your stories and news with everyone.</p>
             <div class="row">
                 <?php
-                $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 3 ) );  
-                    while ( $loop->have_posts() ) : $loop->the_post();
+                $query_result = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 3 ) );  
+                    while ( $query_result->have_posts() ) : $query_result->the_post();
                         ?> 
                         <div class="column">
                             <div class="news-card" style="">
@@ -19,7 +19,7 @@
                                     <?php the_post_thumbnail('post-thumbnail', ['class' => 'author-iamge', 'title' => 'Feature image']);?>
                                         <div class="media-body">
                                             <h6 class="author-name">Posted by <?php echo get_the_author();?> </h6>
-                                            <p class="news-post-date">July 5, 2019</p>
+                                            <p class="news-post-date"><?php echo get_the_date(); ?></p>
                                         </div>
                                     </div>
                                     <div class="post-meta">

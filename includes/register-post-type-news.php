@@ -36,7 +36,7 @@ function create_news_cpt() {
 		'label' => __( 'News', 'oleez' ),
 		'description' => __( 'News post type', 'oleez' ),
 		'labels' => $labels,
-		'menu_icon' => '',
+		'menu_icon' => 'dashicons-media-document',
 		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author', 'comments', 'page-attributes', 'post-formats', 'custom-fields'),
 		'taxonomies' => array(),
 		'public' => true,
