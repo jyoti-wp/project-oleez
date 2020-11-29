@@ -7,6 +7,7 @@
 <?php get_header(); ?>
 
 <div class="content">
+<?php get_template_part( 'template-parts/home/hero-carousel' ); ?>
 <?php get_template_part( 'template-parts/home/oleez-landing-section-carousel' ); ?>
 <?php get_template_part( 'template-parts/home/oleez-landing-section-project' ); ?>
 <?php get_template_part( 'template-parts/home/oleez-landing-section-team' ); ?>
@@ -17,12 +18,12 @@
 
 </div>
 
-<?php 
-if ( have_posts() ) : 
-    while ( have_posts() ) : the_post(); 
+<?php
+if ( have_posts() ) :
+    while ( have_posts() ) : the_post();
         the_title();
-    endwhile; 
-endif; 
+    endwhile;
+endif;
 ?>
 
 <?php get_footer(); ?>
