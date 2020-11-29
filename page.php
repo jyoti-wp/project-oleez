@@ -23,11 +23,6 @@ get_header();
 			endif;
 			?>
 		</div>
-		<div class="columns large-3 medium-12 small-12">
-			<aside>
-				<?php get_sidebar(); ?>
-			</aside>
-		</div>
 	</div>
 </div>
 
