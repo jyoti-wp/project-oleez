@@ -506,6 +506,29 @@ body {
         vertical-align: middle;
         border-style: none; }
 
+.hero-slide {
+  display: flex;
+  flex-direction: row-reverse; }
+  .hero-slide .left-hero {
+    width: 23.75rem;
+    position: relative; }
+    .hero-slide .left-hero .left-hero-wrap {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column; }
+  .hero-slide .hero-caption {
+    background-color: #f7b500;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    white-space: nowrap; }
+  .hero-slide .hero-cta {
+    display: flex;
+    align-items: center; }
+    .hero-slide .hero-cta .hero-cta-icon {
+      margin-left: 0.5rem; }
+
 .oleez-landing-section-team {
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
@@ -565,6 +588,11 @@ body {
     @media screen and (min-width: 375px) {
     header img {
       width: 5rem; } }
+    @media screen and (min-width: 756px) {
+      .hero-slide .hero-caption {
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 1.8; } }
     @media screen and (min-width: 768px) {
     body {
       overflow: hidden;
@@ -609,6 +637,11 @@ body {
       .oleez-landing-section-team .landing-team-card {
         margin-left: 1.5625rem;
         margin-right: 1.5625rem; } }
+    @media screen and (min-width: 1080px) {
+      .hero-slide .hero-caption {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.8; } }
     @media screen and (min-width: 1200px) {
       .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
         display: block; }

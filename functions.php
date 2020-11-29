@@ -62,20 +62,20 @@ add_action( 'widgets_init', 'wpdocs_theme_slug_widgets_init' );
 
 
 function wpb_add_google_fonts() {
- 
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Heebo&display=swap', false ); 
+
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Heebo&display=swap', false );
 	}
 
 
-	 
+
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
 
-						// meta box code 
+						// meta box code
 
 // function add_meta_box( $id, $title, $callback, $screen = null, $context = 'advanced', $priority = 'default', $callback_args = null ) {
 //     global $wp_meta_boxes;
- 
+
 //     if ( empty( $screen ) ) {
 //         $screen = get_current_screen();
 //     } elseif ( is_string( $screen ) ) {
@@ -85,13 +85,13 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //             add_meta_box( $id, $title, $callback, $single_screen, $context, $priority, $callback_args );
 //         }
 //     }
- 
+
 //     if ( ! isset( $screen->id ) ) {
 //         return;
 //     }
- 
+
 //     $page = $screen->id;
- 
+
 //     if ( ! isset( $wp_meta_boxes ) ) {
 //         $wp_meta_boxes = array();
 //     }
@@ -101,20 +101,20 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //     if ( ! isset( $wp_meta_boxes[ $page ][ $context ] ) ) {
 //         $wp_meta_boxes[ $page ][ $context ] = array();
 //     }
- 
+
 //     foreach ( array_keys( $wp_meta_boxes[ $page ] ) as $a_context ) {
 //         foreach ( array( 'high', 'core', 'default', 'low' ) as $a_priority ) {
 //             if ( ! isset( $wp_meta_boxes[ $page ][ $a_context ][ $a_priority ][ $id ] ) ) {
 //                 continue;
 //             }
- 
+
 //             // If a core box was previously removed, don't add.
 //             if ( ( 'core' === $priority || 'sorted' === $priority )
 //                 && false === $wp_meta_boxes[ $page ][ $a_context ][ $a_priority ][ $id ]
 //             ) {
 //                 return;
 //             }
- 
+
 //             // If a core box was previously added by a plugin, don't add.
 //             if ( 'core' === $priority ) {
 //                 /*
@@ -127,7 +127,7 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //                 }
 //                 return;
 //             }
- 
+
 //             // If no priority given and ID already present, use existing priority.
 //             if ( empty( $priority ) ) {
 //                 $priority = $a_priority;
@@ -140,22 +140,22 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //                 $callback      = $wp_meta_boxes[ $page ][ $a_context ][ $a_priority ][ $id ]['callback'];
 //                 $callback_args = $wp_meta_boxes[ $page ][ $a_context ][ $a_priority ][ $id ]['args'];
 //             }
- 
+
 //             // An ID can be in only one priority and one context.
 //             if ( $priority !== $a_priority || $context !== $a_context ) {
 //                 unset( $wp_meta_boxes[ $page ][ $a_context ][ $a_priority ][ $id ] );
 //             }
 //         }
 //     }
- 
+
 //     if ( empty( $priority ) ) {
 //         $priority = 'low';
 //     }
- 
+
 //     if ( ! isset( $wp_meta_boxes[ $page ][ $context ][ $priority ] ) ) {
 //         $wp_meta_boxes[ $page ][ $context ][ $priority ] = array();
 //     }
- 
+
 //     $wp_meta_boxes[ $page ][ $context ][ $priority ][ $id ] = array(
 //         'id'       => $id,
 //         'title'    => $title,
@@ -165,19 +165,6 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 // }
 
 
-
-
-
-include_once 'includes/register-post-type-news.php';
-
-include_once 'includes/register-post-type-testimonials.php';
-
-include_once 'includes/register-post-type-portfolio.php';
-
-include_once 'includes/add-theme-support.php';
-
-
- 	
 
 
 
