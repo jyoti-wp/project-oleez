@@ -10,32 +10,32 @@
             <div class="row">
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
                 <div class="column" style="">
                     <div class="client-logo">
-                        <img src="/assets/src/images/client_1.svg" alt="client" height="50px">
+                        <img src="https://via.placeholder.com/297x124" class="client-logo-img" alt="Project 1" width="297" height="144">
                     </div>
                 </div>
             </div>

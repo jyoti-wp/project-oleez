@@ -3,7 +3,7 @@
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals" style="">
                 <span class="number">05</span> 
-                <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+                <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
             </div>
             <div class="justify-content-between" style="">
                 <div class="testimonial-section-content">
@@ -12,10 +12,9 @@
                 </div>
                 <div class="testimonial-carousel">
                     <button type="button" class="slick-nav-btn">
-                        <img src="assets/images/Arrow_L@2x.svg">
-                    </button>
+                        <img src="https://via.placeholder.com/45x45" alt="button" height="45" width="45">                    </button>
                     <button type="button" class="slick-nav-btn">
-                        <img src="assets/images/Arrow_R@2x.svg">
+                        <img src="https://via.placeholder.com/45x45" alt="button" height="45" width="45">
                     </button>
                 </div>
             </div>
@@ -24,7 +23,7 @@
                     <div class="slick-track" style="">
                         <div class="landing-testimonial-card">
                             <div class="media">
-                                <img src="assets/images/Client_1@2x.jpg" alt="client" class="testimonial-card-img">
+                                <img src="https://via.placeholder.com/40x40" alt="oleez" height="40" width="40">
                                 <div class="media-body">
                                     <p class="testimonial-card-content">The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.</p>
                                     <h6 class="testimonial-card-name">Winnie Warner</h6>
@@ -34,7 +33,7 @@
                         </div>
                         <div class="landing-testimonial-card">
                             <div class="media">
-                                <img src="assets/images/Client_2@2x.jpg" alt="client" class="testimonial-card-img">
+                                <img src="https://via.placeholder.com/40x40" alt="oleez" height="40" width="40">
                                 <div class="media-body">
                                     <p class="testimonial-card-content">The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.</p>
                                     <h6 class="testimonial-card-name">Wesley Ford</h6>
@@ -44,7 +43,7 @@
                         </div>
                         <div class="landing-testimonial-card    " style="">
                             <div class="media">
-                                <img src="assets/images/Client_3@2x.jpg" alt="client" class="testimonial-card-img">
+                                <img src="https://via.placeholder.com/40x40" alt="oleez" height="40" width="40">
                                 <div class="media-body">
                                     <p class="testimonial-card-content">The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.</p>
                                     <h6 class="testimonial-card-name">Winnie Warner</h6>
@@ -54,7 +53,7 @@
                         </div>  
                         <div class="landing-testimonial-card" style="">
                             <div class="media">
-                                <img src="assets/images/Client_4@2x.jpg" alt="client" class="testimonial-card-img">
+                                <img src="https://via.placeholder.com/40x40" alt="oleez" height="40" width="40">
                                 <div class="media-body">
                                     <p class="testimonial-card-content">The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.</p>
                                     <h6 class="testimonial-card-name">Wesley Ford</h6>

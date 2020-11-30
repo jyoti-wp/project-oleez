@@ -15,17 +15,17 @@
             </div>
             <div class="row">
                 <div class="landing-about-feature" style="">
-                    <img src="/assets/src/images/icon_1.svg" alt="document" class="about-feature-icon">
+                    <img src="https://via.placeholder.com/54x71" class="about-feature-icon" alt="document" width="54" height="71">
                     <h2 class="about-feature-title">Market Research</h5>
                     <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                 </div>
                 <div class="landing-about-feature" style="">
-                    <img src="assets/src/images/icon_2.svg" alt="document" class="about-feature-icon">
+                    <img src="https://via.placeholder.com/54x71" class="about-feature-icon" alt="document" width="54" height="71">
                     <h2 class="about-feature-title">Wireframe/Sketch</h5>
                     <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                 </div>
                 <div class="landing-about-feature" style="">
-                    <img src="assets/src/images/icon_3.svg" alt="document" class="about-feature-icon">
+                    <img src="https://via.placeholder.com/54x71" class="about-feature-icon" alt="document" width="54" height="71">
                     <h2 class="about-feature-title">Creative Design</h5>
                     <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                 </div>

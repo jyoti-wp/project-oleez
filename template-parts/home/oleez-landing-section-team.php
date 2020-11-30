@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <div class="landing-team-card" style="">
-                    <img src="assets/images/Team_3@2x.jpg" alt="Team Member" class="team-card-img">
+                    <img src="https://via.placeholder.com/295x362" class="Landing-team-img" alt="" width="295" height="362">
                     <h5 class="team-card-name">Siri Jakobsson</h5>
                     <p class="team-card-job">Web Developer</p>
                     <nav class="team-card-social-links">
@@ -24,17 +24,17 @@
                     </nav>
                 </div>
                 <div class="landing-team-card wow flipInY" style="">
-                        <img src="assets/images/Team_2@2x.jpg" alt="Team Member" class="team-card-img">
-                        <h5 class="team-card-name">Arend Pellewever</h5>
-                        <p class="team-card-job">Founder</p>
-                        <nav class="team-card-social-links">
-                            <a href="#!">Fb</a>
-                            <a href="#!">Tw</a>
-                            <a href="#!">In</a>
-                        </nav>
+                    <img src="https://via.placeholder.com/295x362" class="Landing-team-img" alt="" width="295" height="362">
+                    <h5 class="team-card-name">Arend Pellewever</h5>
+                    <p class="team-card-job">Founder</p>
+                    <nav class="team-card-social-links">
+                        <a href="#!">Fb</a>
+                        <a href="#!">Tw</a>
+                        <a href="#!">In</a>
+                    </nav>
                 </div>
                 <div class="landing-team-card" style="">
-                    <img src="assets/images/Team_1@2x.jpg" alt="Team Member" class="team-card-img">
+                    <img src="https://via.placeholder.com/295x362" class="Landing-team-img" alt="" width="295" height="362">
                     <h5 class="team-card-name">Antokolskiy</h5>
                     <p class="team-card-job">Web Developer</p>
                     <nav class="team-card-social-links">

@@ -10,28 +10,28 @@
             <div class="slick-slider" style="">
                 <div class="slick-list">
                     <div class="slick-track" style="">
-                        <img src="https://via.placeholder.com/279x174" class="card-img" alt="Project 1" width="279" height="174">
+                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="256" height="300">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>
                             <h5 class="project-title">BootstrapDash</h5>
                         </div>
                     </div>
                     <div class="landing-project-card" data-slick-index="" aria-hidden="" tabindex="" style="">
-                        <img src="assets/images/Project_2@2x.jpg" class="card-img" alt="Project 1">
+                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="272" height="300">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>
                             <h5 class="project-title">BootstrapDash</h5>
                         </div>
                     </div>
                     <div class="landing-project-card" data-slick-index="" aria-hidden="" tabindex="" style="">
-                        <img src="assets/images/Project_3@2x.jpg" class="card-img" alt="Project 1">
+                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="272" height="300">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>
                             <h5 class="project-title">BootstrapDash</h5>
                         </div>
                     </div>
                     <div class="landing-project-card slick-slide" data-slick-index="" aria-hidden="" tabindex="" style="">
-                        <img src="assets/images/Project_4@2x.jpg" class="card-img" alt="Project 1">
+                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="272" height="300">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>
                             <h5 class="project-title">BootstrapDash</h5>
@@ -42,10 +42,10 @@
         </div>
         <div class="slick-navbtn-wrapper">
             <button type="button" class="slick-nav-btn slick-arrow slick-disabled" aria-disabled="true" style="">
-                <img src="assets/images/Arrow_L@2x.svg">
+                <img src="https://via.placeholder.com/45x45" class="card-img" alt="" width="45" height="45">
             </button>
             <button type="button" class="slick-nav-btn slick-arrow" aria-disabled="false" style="">
-                <img src="assets/images/Arrow_R@2x.svg">
+                <img src="https://via.placeholder.com/45x45" class="card-img" alt="" width="45" height="45">
             </button>
         </div>
     </div>

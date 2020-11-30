@@ -4,6 +4,8 @@
     background-color: #f8f4eb;
 
     .wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
 
         @media screen and (min-width: $tablet) {
             max-width: 720px;
@@ -128,6 +130,7 @@
 
     .slick-navbtn-wrapper {
         padding-top: 19px;
+        margin-left: 50px;s
 
         .slick-nav-btn {
             width: 45px;
