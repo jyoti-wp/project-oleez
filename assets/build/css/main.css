@@ -60,11 +60,11 @@ header .menu-item a {
     padding-left: 0.9375rem; }
   .oleez-footer .footer-content {
     padding-top: 5.625rem;
-    padding-bottom: 2.8125rem; }
+    padding-bottom: 2.8125rem;
+    overflow: hidden; }
     .oleez-footer .footer-content .row {
       flex-wrap: wrap;
-      margin-right: -0.9375rem;
-      margin-left: -0.9375rem; }
+      margin-right: -0.9375rem; }
       .oleez-footer .footer-content .row .footer-logo {
         height: 1.875rem;
         margin-bottom: 1.1875rem; }
@@ -82,7 +82,7 @@ header .menu-item a {
           margin-bottom: 1.625rem;
           max-width: 18rem; }
   .oleez-footer .footer-social-links {
-    display: block; }
+    display: flex; }
     .oleez-footer .footer-social-links a {
       font-size: 0.875rem;
       font-weight: 700;
@@ -101,10 +101,13 @@ header .menu-item a {
       font-size: 0.875rem;
       line-height: 1.29; }
   .oleez-footer .footer-text {
-    display: block; }
+    display: block;
+    padding: 2.75rem 0px; }
     .oleez-footer .footer-text p {
       font-size: 0.875rem;
       line-height: 1.29; }
+    .oleez-footer .footer-text .text-reset {
+      color: white; }
 
 html {
   overflow-x: hidden; }
@@ -135,14 +138,15 @@ body {
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
   .oleez-landing-section-carousel .oleez-landing-section-content {
-    position: relative;
-    padding-left: 3.125rem; }
+    position: relative; }
   .oleez-landing-section-carousel .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     padding-top: 0.6875rem; }
+    .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+      display: none; }
     .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
       font-size: 1.25rem;
       color: #f7b500;
@@ -203,7 +207,8 @@ body {
       margin-right: 0.8125rem; }
     .oleez-landing-section-news .oleez-landing-section-verticals img {
       position: relative;
-      top: -0.1875rem; }
+      top: -0.1875rem;
+      display: none; }
   .oleez-landing-section-news .section-title {
     font-size: 2rem;
     line-height: 1.33;
@@ -313,7 +318,7 @@ body {
       line-height: 1;
       display: inline-block;
       margin-right: 0.8125rem; }
-    .oleez-landing-section-client .oleez-landing-section-verticals .oleez-landing-section-verticals img {
+    .oleez-landing-section-client .oleez-landing-section-verticals img {
       display: none; }
   .oleez-landing-section-client .section-title {
     font-size: 1.875rem;
@@ -357,7 +362,8 @@ body {
     padding-top: 0.6875rem; }
     .oleez-landing-section-testimonials .oleez-landing-section-verticals img {
       position: relative;
-      top: -0.1875rem; }
+      top: -0.1875rem;
+      display: none; }
     .oleez-landing-section-testimonials .oleez-landing-section-verticals .number {
       font-size: 1.25rem;
       color: #f7b500;
@@ -446,7 +452,8 @@ body {
       margin-right: 0.8125rem; }
     .oleez-landing-section-projects .oleez-landing-section-verticals img {
       position: relative;
-      top: -0.1875rem; }
+      top: -0.1875rem;
+      display: none; }
   .oleez-landing-section-projects .oleez-landing-section-verticals::after {
     content: "";
     display: inline-block;
@@ -548,7 +555,8 @@ body {
 
 .oleez-landing-section-team {
   padding-top: 8.125rem;
-  padding-bottom: 7.8125rem; }
+  padding-bottom: 7.8125rem;
+  overflow: hidden; }
   .oleez-landing-section-team .oleez-landing-section-content {
     position: relative;
     padding-left: 3.125rem; }
@@ -566,9 +574,11 @@ body {
       margin-right: 0.8125rem; }
     .oleez-landing-section-team .oleez-landing-section-verticals img {
       position: relative;
-      top: -0.1875rem; }
+      top: -0.1875rem;
+      display: none; }
   .oleez-landing-section-team .landing-team-content {
-    margin-bottom: 3.25rem; }
+    margin-bottom: 3.25rem;
+    overflow: hidden; }
   .oleez-landing-section-team .column {
     position: relative;
     width: 100%;
@@ -716,8 +726,6 @@ body {
       border-bottom: 1px solid #cbcbcb;
       display: none; } }
     @media screen and (max-width: 640px) {
-      .oleez-landing-section-carousel .oleez-landing-section-verticals img {
-        display: none; }
       .oleez-landing-section-carousel .landing-about-feature {
         flex: none;
         max-width: 100%; } }

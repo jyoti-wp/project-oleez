@@ -1,6 +1,7 @@
 .oleez-landing-section-team {
     padding-top: 130px;
     padding-bottom: 125px;
+    overflow: hidden;
 
     .wrapper {
 
@@ -48,11 +49,13 @@
         img {
             position: relative;
             top: -3px;
+            display: none;
         }
     }
 
     .landing-team-content {
         margin-bottom: 52px;
+        overflow: hidden;
     }
 
     .column {

@@ -10,11 +10,11 @@
     .footer-content {
         padding-top: 90px;
         padding-bottom: 45px;
+        overflow: hidden;
 
         .row {
             flex-wrap: wrap;
             margin-right: -15px;
-            margin-left: -15px;
     
             .footer-logo {
                 height: 30px;
@@ -43,7 +43,7 @@
     }
 
     .footer-social-links {
-        display: block;
+        display: flex;
 
         a {
             font-size: 14px;
@@ -73,10 +73,15 @@
 
     .footer-text {
         display: block;
+        padding: 44px 0px;
 
         p {
             font-size: 14px;
             line-height: 1.29;
+        }
+
+        .text-reset {
+            color: white;
         }
     }
 }
