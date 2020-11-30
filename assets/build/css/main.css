@@ -113,9 +113,7 @@ html {
   overflow-x: hidden; }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 100%;
-  max-width: 75rem; }
+  margin: 0 auto; }
 
 a {
   text-decoration: none;
@@ -623,12 +621,9 @@ body {
     @media screen and (min-width: 375px) {
     header img {
       width: 5rem; } }
-    @media screen and (min-width: 756px) {
-      .hero-slide .hero-caption {
-        font-size: 2.25rem;
-        font-weight: 700;
-        line-height: 1.8; } }
     @media screen and (min-width: 768px) {
+    .wrapper {
+      max-width: 45rem; }
     body {
       overflow: hidden;
       margin: 0 auto; }
@@ -659,6 +654,14 @@ body {
         width: 22.6875rem;
         margin-right: 1.4375rem;
         overflow: hidden; }
+    .hero-slide .wrapper {
+      max-width: 45rem; }
+      .hero-slide .hero-caption {
+        font-size: 3.125rem;
+        font-weight: 700;
+        line-height: 1.8; }
+      .hero-slide .hero-cta {
+        font-size: 1.125rem; }
     .oleez-landing-section-team .wrapper {
       max-width: 45rem; }
       .oleez-landing-section-team .oleez-landing-section-content {
@@ -672,14 +675,11 @@ body {
       .oleez-landing-section-team .landing-team-card {
         margin-left: 1.5625rem;
         margin-right: 1.5625rem; } }
-    @media screen and (min-width: 1080px) {
-      .hero-slide .hero-caption {
-        font-size: 4rem;
-        font-weight: 700;
-        line-height: 1.8; } }
     @media screen and (min-width: 1200px) {
       .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
         display: block; }
+    .wrapper {
+      max-width: 75rem; }
       .oleez-landing-section-carousel .oleez-landing-section-content {
         padding-left: 13.25rem; }
       .oleez-landing-section-carousel .oleez-landing-section-verticals {
@@ -708,6 +708,8 @@ body {
         width: 23.5625rem;
         margin-right: 4.5rem;
         float: left; }
+      .hero-slide .hero-caption {
+        font-size: 4rem; }
     .oleez-landing-section-team .wrapper {
       max-width: 75rem; }
       .oleez-landing-section-team .oleez-landing-section-content {
