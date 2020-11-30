@@ -16,7 +16,7 @@ header .menu {
   display: flex;
   justify-content: space-between; }
 
-header li {
+header ul li {
   position: relative;
   list-style: none;
   padding-right: 1.25rem;
@@ -111,7 +111,7 @@ html {
 
 .wrapper {
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   max-width: 75rem; }
 
 a {
@@ -135,7 +135,8 @@ body {
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
   .oleez-landing-section-carousel .oleez-landing-section-content {
-    position: relative; }
+    position: relative;
+    padding-left: 3.125rem; }
   .oleez-landing-section-carousel .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
@@ -186,7 +187,8 @@ body {
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
   .oleez-landing-section-news .oleez-landing-section-content {
-    padding-left: 3.125rem; }
+    padding-left: 3.125rem;
+    position: relative; }
   .oleez-landing-section-news .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
@@ -297,7 +299,8 @@ body {
   padding-bottom: 7.8125rem;
   background-color: #f8f4eb; }
   .oleez-landing-section-client .oleez-landing-section-content {
-    padding-left: 3.125rem; }
+    padding-left: 3.125rem;
+    position: relative; }
   .oleez-landing-section-client .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
@@ -344,7 +347,8 @@ body {
   padding-bottom: 7.8125rem;
   background-color: #f8f4eb; }
   .oleez-landing-section-testimonials .oleez-landing-section-content {
-    padding-left: 3.125rem; }
+    padding-left: 3.125rem;
+    position: relative; }
   .oleez-landing-section-testimonials .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
@@ -426,7 +430,8 @@ body {
   padding-bottom: 7.8125rem;
   background-color: #f8f4eb; }
   .oleez-landing-section-projects .oleez-landing-section-content {
-    padding-left: 3.125rem; }
+    padding-left: 3.125rem;
+    position: relative; }
   .oleez-landing-section-projects .oleez-landing-section-verticals {
     position: absolute;
     left: 0;
@@ -508,7 +513,14 @@ body {
 
 .hero-slide {
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  padding: 1.875rem 0.9375rem; }
+  .hero-slide .right-hero {
+    padding-left: 6.25rem; }
+    .hero-slide .right-hero img {
+      min-height: 21.875rem;
+      -o-object-fit: cover;
+         object-fit: cover; }
   .hero-slide .left-hero {
     width: 23.75rem;
     position: relative; }
@@ -522,10 +534,15 @@ body {
     background-color: #f7b500;
     display: inline-block;
     padding: 0.625rem 1.875rem;
-    white-space: nowrap; }
+    white-space: nowrap;
+    font-size: 2.1875rem;
+    margin-bottom: -0.9375rem;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
   .hero-slide .hero-cta {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-top: 2.1875rem; }
     .hero-slide .hero-cta .hero-cta-icon {
       margin-left: 0.5rem; }
 
@@ -533,6 +550,7 @@ body {
   padding-top: 8.125rem;
   padding-bottom: 7.8125rem; }
   .oleez-landing-section-team .oleez-landing-section-content {
+    position: relative;
     padding-left: 3.125rem; }
   .oleez-landing-section-team .oleez-landing-section-verticals {
     position: absolute;
@@ -660,13 +678,11 @@ body {
         .oleez-landing-section-carousel .column p {
           margin-top: 2.1875rem; }
       .oleez-landing-section-news .oleez-landing-section-content {
-        padding-left: 13.25rem;
-        position: relative; }
+        padding-left: 13.25rem; }
       .oleez-landing-section-news .row {
         flex-wrap: nowrap; }
       .oleez-landing-section-testimonials .oleez-landing-section-content {
-        padding-left: 13.25rem;
-        position: relative; }
+        padding-left: 13.25rem; }
       .oleez-landing-section-testimonials .testimonial-section-content {
         margin-bottom: 6.25rem; }
       .oleez-landing-section-testimonials .testimonial-carousel {
