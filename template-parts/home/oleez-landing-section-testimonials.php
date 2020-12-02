@@ -3,7 +3,7 @@
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals" style="">
                 <span class="number">05</span> 
-                <img src="https://via.placeholder.com/40x12" class="about-feature-icon" alt="document" width="40" height="12">
+                <img src="https://via.placeholder.com/40x12" class="" alt="Oleez" width="40" height="12">
             </div>
             <div class="justify-content-between" style="">
                 <div class="testimonial-section-content">
@@ -12,7 +12,7 @@
                 </div>
                 <div class="testimonial-carousel">
                     <button type="button" class="slick-nav-btn">
-                        <img src="https://via.placeholder.com/45x45" alt="button" height="45" width="45">                    </button>
+                        <img src="https://via.placeholder.com/45x45" alt="button" height="45" width="45"></button>
                     <button type="button" class="slick-nav-btn">
                         <img src="https://via.placeholder.com/45x45" alt="button" height="45" width="45">
                     </button>

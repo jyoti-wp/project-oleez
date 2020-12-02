@@ -4,31 +4,28 @@
 /**
  * Front end styles.
  */
-
-header .logo-image {
-  padding: 1.25rem; }
-
-header .header-container {
-  display: flex;
-  justify-content: space-between; }
-
-header .menu {
-  display: flex;
-  justify-content: space-between; }
-
-header ul li {
-  position: relative;
-  list-style: none;
-  padding-right: 1.25rem;
-  padding-left: 1.25rem; }
-
-header img {
-  width: auto; }
-
-header .menu-item a {
-  font-family: "Heebo", sans-serif;
-  font-weight: 500;
-  font-size: 1.125rem; }
+header {
+  overflow: hidden;
+  margin-bottom: 0px; }
+  header .logo-image {
+    padding: 1.25rem; }
+  header .header-container {
+    display: flex;
+    justify-content: space-between; }
+  header .menu {
+    display: flex;
+    justify-content: space-between; }
+  header ul li {
+    position: relative;
+    list-style: none;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  header img {
+    width: auto; }
+  header .menu-item a {
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem; }
 
 .menu-header-menu-container ul.menu {
   display: flex;
@@ -73,6 +70,8 @@ header .menu-item a {
         width: 100%;
         padding-right: 0.9375rem;
         padding-left: 0.9375rem; }
+        .oleez-footer .footer-content .row .column .row {
+          display: flex; }
         .oleez-footer .footer-content .row .column .footer-logo {
           height: 1.875rem;
           margin-bottom: 1.1875rem; }
@@ -108,6 +107,8 @@ header .menu-item a {
       line-height: 1.29; }
     .oleez-footer .footer-text .text-reset {
       color: white; }
+  .oleez-footer .column > row {
+    flex-wrap: nowrap; }
 
 html {
   overflow-x: hidden; }
@@ -153,6 +154,12 @@ body {
       margin-right: 0.8125rem; }
   .oleez-landing-section-carousel .landing-about-content {
     margin-bottom: 4.375rem; }
+    .oleez-landing-section-carousel .landing-about-content .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
   .oleez-landing-section-carousel .row {
     margin-left: 2.8125rem; }
   .oleez-landing-section-carousel .column {
@@ -318,6 +325,8 @@ body {
       display: inline-block;
       margin-right: 0.8125rem; }
     .oleez-landing-section-client .oleez-landing-section-verticals img {
+      position: relative;
+      top: -0.1875rem;
       display: none; }
   .oleez-landing-section-client .section-title {
     font-size: 1.875rem;
@@ -419,16 +428,16 @@ body {
         line-height: 1.44;
         color: #000000;
         margin-bottom: 2.75rem; }
-        .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-content p h6 {
-          font-size: 1rem;
-          font-weight: 500;
-          line-height: 0.75;
-          color: #080808;
-          margin-bottom: 0; }
       .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-company p {
         font-size: 0.75rem;
         line-height: 2.08;
         margin-bottom: 0; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-name {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 0.75;
+        color: #080808;
+        margin-bottom: -0.9375rem; }
 
 .oleez-landing-section-projects {
   padding-top: 8.125rem;
@@ -556,7 +565,8 @@ body {
     align-items: center;
     margin-top: 2.1875rem; }
     .hero-slide .hero-cta .hero-cta-icon {
-      margin-left: 0.5rem; }
+      margin-left: 0.5rem;
+      margin-top: 0.3125rem; }
 
 .oleez-landing-section-team {
   padding-top: 8.125rem;
@@ -617,9 +627,22 @@ body {
       margin-right: 0.625rem;
       color: #100e0e; }
     @media screen and (min-width: 375px) {
-    header img {
-      width: 5rem; } }
+      header img {
+        width: 5rem; } }
     @media screen and (min-width: 768px) {
+        .oleez-footer .footer-content .row {
+          display: flex;
+          flex-wrap: nowrap; }
+          .oleez-footer .footer-content .row .column {
+            flex: 0 0 50%;
+            max-width: 50%; }
+      .oleez-footer .footer-widget {
+        flex: 0 0 50%; }
+      .oleez-footer .footer-text {
+        display: flex;
+        justify-content: space-between; }
+    .oleez-footer .md-md-0 {
+      display: flex; }
     .wrapper {
       max-width: 45rem; }
     body {
@@ -629,6 +652,10 @@ body {
         padding-left: 8.125rem; }
       .oleez-landing-section-carousel .oleez-landing-section-verticals {
         margin-top: 1.0625rem; }
+        .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+          display: inline-block;
+          position: relative;
+          top: -0.1875rem; }
       .oleez-landing-section-carousel .row {
         display: flex;
         flex-wrap: wrap;
@@ -637,15 +664,34 @@ body {
       .oleez-landing-section-carousel .column {
         flex: 0 0 50%;
         max-width: 49%; }
+      .oleez-landing-section-news .oleez-landing-section-content {
+        padding-left: 7rem; }
         .oleez-landing-section-news .oleez-landing-section-verticals img {
           display: inline-block; }
     .oleez-landing-section-client .wrapper {
       max-width: 45rem; }
       .oleez-landing-section-client .oleez-landing-section-content {
         padding-left: 7rem; }
+        .oleez-landing-section-client .oleez-landing-section-verticals img {
+          display: inline-block; }
       .oleez-landing-section-client .row {
         display: flex;
         flex-wrap: wrap; }
+        .oleez-landing-section-client .row .client-logo {
+          width: 7.125rem;
+          height: 3.125rem;
+          margin-left: 0.625rem;
+          margin-right: 0.625rem; }
+      .oleez-landing-section-testimonials .oleez-landing-section-content {
+        padding-left: 7rem; }
+        .oleez-landing-section-testimonials .oleez-landing-section-verticals img {
+          display: inline-block; }
+      .oleez-landing-section-testimonials .justify-content-between {
+        display: flex; }
+      .oleez-landing-section-testimonials .testimonial-carousel {
+        margin-top: 1.875rem; }
+        .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-track {
+          display: flex; }
       .oleez-landing-section-projects .wrapper {
         max-width: 45rem; }
       .oleez-landing-section-projects .oleez-landing-section-content {
@@ -659,7 +705,7 @@ body {
     .hero-slide .wrapper {
       max-width: 45rem; }
       .hero-slide .hero-caption {
-        font-size: 3.125rem;
+        font-size: 2.625rem;
         font-weight: 700;
         line-height: 1.8; }
       .hero-slide .hero-cta {
@@ -668,23 +714,39 @@ body {
       max-width: 45rem; }
       .oleez-landing-section-team .oleez-landing-section-content {
         padding-left: 7rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals img {
+          display: inline-block; }
       .oleez-landing-section-team .column {
         flex: 0 0 50%;
         max-width: 50%; }
       .oleez-landing-section-team .row {
         display: flex;
-        flex-wrap: wrap; }
+        flex-wrap: nowrap; }
       .oleez-landing-section-team .landing-team-card {
         margin-left: 1.5625rem;
         margin-right: 1.5625rem; } }
     @media screen and (min-width: 1200px) {
+      header .logo-image {
+        padding-top: 2.25rem; }
+      header .logo-image img {
+        width: 5.625rem;
+        height: 1.875rem; }
+        .menu-header-menu-container ul.menu > li.menu-item a {
+          padding-right: 1.75rem;
+          padding-left: 1.75rem;
+          font-weight: 500;
+          font-size: 1.375rem; }
       .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
         display: block; }
     .wrapper {
       max-width: 75rem; }
       .oleez-landing-section-carousel .oleez-landing-section-content {
         padding-left: 13.25rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-verticals {
+        margin-top: 1.625rem; }
         .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+        .oleez-landing-section-carousel .landing-about-content .number {
           font-size: 1.5625rem; }
         .oleez-landing-section-carousel .column h2 {
           font-size: 2.25rem; }
@@ -694,8 +756,17 @@ body {
         padding-left: 13.25rem; }
       .oleez-landing-section-news .row {
         flex-wrap: nowrap; }
+    .oleez-landing-section-client .wrapper {
+      max-width: 75rem; }
+        .oleez-landing-section-client .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+        .oleez-landing-section-client .row .client-logo {
+          width: 13.4375rem;
+          height: 7.75rem; }
       .oleez-landing-section-testimonials .oleez-landing-section-content {
         padding-left: 13.25rem; }
+        .oleez-landing-section-testimonials .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
       .oleez-landing-section-testimonials .testimonial-section-content {
         margin-bottom: 6.25rem; }
       .oleez-landing-section-testimonials .testimonial-carousel {
@@ -704,20 +775,26 @@ body {
         width: 23.5625rem;
         margin-right: 4.5rem;
         float: left; }
+      .oleez-landing-section-projects .wrapper {
+        max-width: 75rem; }
+        .oleez-landing-section-projects .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+      .oleez-landing-section-projects .slick-list {
+        display: flex; }
       .hero-slide .hero-caption {
-        font-size: 4rem; }
+        font-size: 3.125rem; }
+      .hero-slide .hero-cta {
+        font-size: 1.25rem; }
     .oleez-landing-section-team .wrapper {
       max-width: 75rem; }
       .oleez-landing-section-team .oleez-landing-section-content {
         padding-left: 13.25rem; }
         .oleez-landing-section-team .oleez-landing-section-verticals .number {
-          font-size: 1.5625rem; }
+          font-size: 1.625rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals img {
+          display: inline-block; }
       .oleez-landing-section-team .row {
         flex-wrap: nowrap; } }
-    @media screen and (max-width: 375px) {
-  header {
-    overflow: hidden;
-    margin-bottom: 0px; } }
     @media screen and (max-width: 1200px) {
   .burger-menu-icon {
     display: none; }
@@ -730,11 +807,6 @@ body {
       width: 100%;
       border-bottom: 1px solid #cbcbcb;
       display: none; } }
-    @media screen and (max-width: 768px) {
-        .oleez-landing-section-carousel .oleez-landing-section-verticals img {
-          display: inline-block;
-          position: relative;
-          top: -0.1875rem; } }
     @media screen and (max-width: 640px) {
       .oleez-landing-section-carousel .landing-about-feature {
         flex: none;

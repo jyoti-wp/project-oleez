@@ -10,7 +10,7 @@
             <div class="slick-slider" style="">
                 <div class="slick-list">
                     <div class="slick-track" style="">
-                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="256" height="300">
+                        <img src="https://via.placeholder.com/272x300" class="card-img" alt="" width="272" height="300">
                         <div class="card-img-overlay">
                             <h6 class="project-category">Branding</h6>
                             <h5 class="project-title">BootstrapDash</h5>

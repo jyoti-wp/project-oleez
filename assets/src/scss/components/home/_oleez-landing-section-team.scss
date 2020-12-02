@@ -42,7 +42,7 @@
             margin-right: 13px;
 
             @media screen and (min-width: $desktop) {
-                font-size: 25px;
+                font-size: 26px;
             }
         }
     
@@ -50,6 +50,14 @@
             position: relative;
             top: -3px;
             display: none;
+
+            @media screen and (min-width: $tablet) {
+                display: inline-block;
+            }
+
+            @media screen and (min-width: $desktop){
+                display: inline-block;
+            }
         }
     }
 
@@ -74,7 +82,7 @@
 
         @media screen and (min-width: $tablet) {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
         }
 
         @media screen and (min-width: $desktop) {

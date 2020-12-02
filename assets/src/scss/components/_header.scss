@@ -1,19 +1,25 @@
-header{
-
-	@media screen and (max-width: 375px) {
-		overflow: hidden;
-		margin-bottom: 0px;
-	}
+header{ 
+	overflow: hidden;
+	margin-bottom: 0px;
 
 	.wrapper {
 
-		@media screen and (max-width: 375px){
-			
-		}
 	}
 
 	.logo-image {
 		padding: 20px;
+
+		@media screen and (min-width: $desktop) {
+			padding-top: 36px;
+		}
+
+		img {
+
+			@media screen and (min-width: $desktop) {
+				width: 90px;
+    			height: 30px;
+			}
+		}
 	}
 
 	.header-container {
@@ -88,6 +94,13 @@ header{
 				padding: 12px 15px;
 				display: inline-block;
 				margin: 0 10px;
+
+				@media screen and (min-width: $desktop) {
+					padding-right: 28px;
+					padding-left: 28px;
+					font-weight: 500;
+    				font-size: 22px;
+				}
 			}
 
 			@media screen and (min-width: $desktop ) {

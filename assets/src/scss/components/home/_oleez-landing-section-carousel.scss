@@ -26,15 +26,35 @@
             margin-top: 17px;
         }
 
-        img {
-            display: none;
+        @media screen and (min-width: $desktop) {
+            margin-top: 26px;
+        }
 
-            @media screen and (max-width: $tablet) {
+        img {
+        display: none;
+
+            @media screen and (min-width: $tablet) {
                 display: inline-block;
                 position: relative;
                 top: -3px;
             }
         }
+
+        .number {
+            font-size: 20px;
+            color: #f7b500;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 13px;
+
+            @media screen and (min-width: $desktop) {
+                font-size: 26px;
+            }
+        }
+
+    }
+    .landing-about-content {
+        margin-bottom: 70px;
 
         .number {
             font-size: 20px;
@@ -47,11 +67,6 @@
                 font-size: 25px;
             }
         }
-    }
-
-
-    .landing-about-content {
-        margin-bottom: 70px;
     }
 
     .row {
@@ -124,5 +139,6 @@
             font-weight: 300;
             padding: 10px 0px;
         }
+    
     }
 }

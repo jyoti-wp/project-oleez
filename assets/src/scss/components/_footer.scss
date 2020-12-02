@@ -15,6 +15,11 @@
         .row {
             flex-wrap: wrap;
             margin-right: -15px;
+
+            @media screen and (min-width: $tablet) {
+                display: flex;
+                flex-wrap: nowrap;  
+            }
     
             .footer-logo {
                 height: 30px;
@@ -26,6 +31,15 @@
                 width: 100%;
                 padding-right: 15px;
                 padding-left: 15px;
+
+                @media screen and (min-width: $tablet) {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                }
+
+                .row {
+                    display: flex;
+                }
         
                 .footer-logo {
                     height: 30px;
@@ -57,6 +71,10 @@
     .footer-widget {
         margin-bottom: 40px;
 
+        @media screen and (min-width: $tablet) {
+            flex: 0 0 50%;
+        }
+
         .widget-title {
             font-size: 18px;
             font-weight: 500;
@@ -75,6 +93,11 @@
         display: block;
         padding: 44px 0px;
 
+        @media screen and (min-width: $tablet) {
+            display: flex;
+            justify-content: space-between;
+        }
+
         p {
             font-size: 14px;
             line-height: 1.29;
@@ -83,5 +106,16 @@
         .text-reset {
             color: white;
         }
+    }
+
+    .md-md-0 {
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
+        }
+    }
+
+    .column>row {
+        flex-wrap: nowrap;
     }
 }
