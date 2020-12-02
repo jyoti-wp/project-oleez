@@ -30,6 +30,10 @@
             position: relative;
             top: -3px;
             display: none;
+
+            @media screen and (min-width: $tablet) {
+                display: inline-block;
+            }
         }
     }
 

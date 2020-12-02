@@ -3,7 +3,7 @@
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals">
                 <span class="number">05</span>
-                <img src="assets/src/images/ezgif.com-gif-maker (1).png" alt="oleez" height="12px">
+                <img src="https://via.placeholder.com/40x12" class="about-feature-icon" alt="document" width="40" height="12">
             </div>
             <h2 class="section-title" style="">Recent News &amp; Stories.</h2>
             <p class="news-section-subtitle" style="">Share your stories and news with everyone.</p>

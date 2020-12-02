@@ -22,14 +22,17 @@
         height: 100%;
         padding-top: 11px;
 
-        @media screen and (min-width: $desktop) {
-            margin-top: 15px;
+        @media screen and (min-width: $tablet) {
+            margin-top: 17px;
         }
 
         img {
             display: none;
-            @media screen and (max-width: $mobile) {
 
+            @media screen and (max-width: $tablet) {
+                display: inline-block;
+                position: relative;
+                top: -3px;
             }
         }
 
@@ -42,16 +45,6 @@
 
             @media screen and (min-width: $desktop) {
                 font-size: 25px;
-            }
-        }
-
-        img {
-            display: none;
-
-            @media screen and (min-width: $desktop) {
-                    position: relative;
-                    top: -3px;
-                    display: inline;
             }
         }
     }
@@ -80,8 +73,9 @@
 
         @media screen and (min-width: $tablet) {
             flex: 0 0 50%;
-            max-width: 50%;
+            max-width: 49%;
         }
+
 
         h2 {
             font-size: 30px;

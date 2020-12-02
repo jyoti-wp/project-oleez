@@ -2,7 +2,8 @@
     <div class="wrapper">
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals " style="">
-                <span class="number">03</span> <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
+                <span class="number">03</span> 
+                <img src="https://via.placeholder.com/40x12" class="about-feature-icon" alt="document" width="40" height="12">
             </div>
             <div class="row landing-team-content" style="">
                 <div class="column">

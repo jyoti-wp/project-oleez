@@ -3,7 +3,7 @@
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals" style="">
                 <span class="number">01</span> 
-                <img src="/assets/src/images/ezgif.com-gif-maker (1).png" alt="oleez" height="12px">
+                <img src="https://via.placeholder.com/40x12" class="about-feature-icon" alt="document" width="40" height="12">
             </div>
             <div class="row landing-about-content" style="">
                 <div class="column">

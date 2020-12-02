@@ -3,7 +3,7 @@
         <div class="oleez-landing-section-content">
             <div class="oleez-landing-section-verticals " style="">
                 <span class="number">02</span> 
-                <img src="assets/images/Logo_2.svg" alt="oleez" height="12px">
+                <img src="https://via.placeholder.com/40x12" class="about-feature-icon" alt="document" width="40" height="12">
             </div>
             <h2 class="section-title" style="">Latest Projects<a href="#!" class="all-projects-link">View All</a>
             </h2>
