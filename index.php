@@ -8,13 +8,13 @@
 
 <div class="content">
 <?php get_template_part( 'template-parts/home/hero-carousel' ); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-section-carousel' ); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-section-project' ); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-section-team' ); ?>
+<?php get_template_part( 'template-parts/home/section-carousel' ); ?>
+<?php get_template_part( 'template-parts/home/section-project' ); ?>
+<?php get_template_part( 'template-parts/home/section-team' ); ?>
 <?php get_template_part( 'template-parts/home/valuable-section'); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-partners-clients'); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-section-news'); ?>
-<?php get_template_part( 'template-parts/home/oleez-landing-section-testimonials' ); ?>
+<?php get_template_part( 'template-parts/home/partners-clients'); ?>
+<?php get_template_part( 'template-parts/home/section-news'); ?>
+<?php get_template_part( 'template-parts/home/section-testimonials' ); ?>
 
 </div>
 
