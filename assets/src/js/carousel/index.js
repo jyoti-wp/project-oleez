@@ -24,7 +24,7 @@
 
 		// latest news slider
 
-		$( '.latest-update-image-area' ).slick( {
+		$( '.hero-section' ).slick( {
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
