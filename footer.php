@@ -11,7 +11,7 @@
         <div class="footer-content">
             <div class="row">
                 <div class="column">
-                    <img src="https://via.placeholder.com/100x38 " alt="oleez" class="footer-logo" width="100" height="38">
+                    <img src="<?php echo get_theme_file_uri('https://via.placeholder.com/100x38')?>" alt="oleez" class="footer-logo" width="100" height="38">
                     <p class="footer-intro-text">Don't be shy, get in touch with us and create the world again!</p>
                     <nav class="footer-social-links">
                         <a href="#!">Fb</a>
@@ -32,7 +32,7 @@
                                 <p class="widget-content">33 rue Burdeau 69089 <br> Paris France</p>
                             </div>
                         </div>
-                        <div class="footer-widget-one">
+                        <div class="footer-widget-one   ">
                             <div class="footer-widget">
                                 <h6 class="widget-title">ENQUIRUES</h6>
                                 <p class="widget-content">info@oleez.site</p>

@@ -36,7 +36,7 @@ function create_testimonials_cpt() {
 		'label' => __( 'Testimonials', 'oleez' ),
 		'description' => __( 'Post type testimonials', 'oleez' ),
 		'labels' => $labels,
-		'menu_icon' => '',
+		'menu_icon' => 'dashicons-media-document',
 		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author', 'comments', 'trackbacks'),
 		'taxonomies' => array(),
 		'public' => true,
