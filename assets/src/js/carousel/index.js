@@ -8,7 +8,7 @@
 
 		initiateCarousel() {
 			$ ('.hero-section').slick( {
-				autoplay: false,
+				autoplay: true,
 				autoplaySpeed: 1000,
 				slidesToShow: 1,
 				slidesToScroll: 1,

@@ -137,7 +137,8 @@ body {
   padding: 1.875rem 0.9375rem; }
   .hero-slide .left-hero-wrapper {
     position: absolute;
-    top: 0; }
+    top: 0;
+    bottom: 0; }
   .hero-slide .right-hero {
     padding-left: 6.25rem; }
     .hero-slide .right-hero img {
@@ -146,11 +147,10 @@ body {
          object-fit: cover; }
   .hero-slide .left-hero {
     width: 23.75rem;
-    position: relative; }
+    height: 100%;
+    display: flex;
+    align-items: center; }
     .hero-slide .left-hero .left-hero-wrap {
-      position: absolute;
-      left: 0;
-      top: 0;
       display: flex;
       flex-direction: column; }
   .hero-slide .hero-caption {
