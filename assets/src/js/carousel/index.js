@@ -1,36 +1,27 @@
 ( function ( $ ) {
 
-	$( document ).ready( function () {
+	class SlickCarousel {
+		init() {
+			this.initiateCarousel();
+		}
+	
+		initiateCarousel() {
+			$ ('.hero-section').slick( {
+				autoplay: true,
+				autoplaySpeed: 1000,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			});
+		}
+	}
 
-		// Slider bottom.
-		$( '.image-container' ).slick( {
-			dots: true,
-			autoplay: false,
-			infinite: true,
-			speed: 100,
-			slidesToShow: 1,
-			slidesToScroll: 1
-		} );
-
-		// Banner slider.
-		$( '.banner-slider-wrap' ).slick( {
-			dots: true,
-			infinite: true,
-			speed: 100,
-			slidesToShow: 1,
-			autoplay: true,
-			arrows: true
-		} );
-
-		// latest news slider
-
-		$( '.hero-section' ).slick( {
-			infinite: true,
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			arrows: true,
-			autoplay: true
-		} );
-	} );
+	new SlickCarousel();
 
 }( jQuery ) );
+
+"scripts": {
+    "lint": "eslint --fix --ext .js,.jsx ."
+}
+
+
+

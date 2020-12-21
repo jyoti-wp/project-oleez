@@ -93,36 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-(function ($) {
-  $(document).ready(function () {
-    // Slider bottom.
-    $('.image-container').slick({
-      dots: true,
-      autoplay: false,
-      infinite: true,
-      speed: 100,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }); // Banner slider.
-
-    $('.banner-slider-wrap').slick({
-      dots: true,
-      infinite: true,
-      speed: 100,
-      slidesToShow: 1,
-      autoplay: true,
-      arrows: true
-    }); // latest news slider
-
-    $('.hero-section').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      arrows: true,
-      autoplay: true
-    });
-  });
-})(jQuery);
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/src/js/carousel/index.js: Unexpected token, expected \";\" (22:9)\n\n\u001b[0m \u001b[90m 20 | \u001b[39m}( jQuery ) )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 | \u001b[39m\u001b[32m\"scripts\"\u001b[39m\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 | \u001b[39m    \u001b[32m\"lint\"\u001b[39m\u001b[33m:\u001b[39m \u001b[32m\"eslint --fix --ext .js,.jsx .\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m\n    at Object._raise (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:746:17)\n    at Object.raiseWithData (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:739:17)\n    at Object.raise (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:733:17)\n    at Object.unexpected (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:8807:16)\n    at Object.semicolon (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:8789:40)\n    at Object.parseExpressionStatement (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11689:10)\n    at Object.parseStatementContent (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11290:19)\n    at Object.parseStatement (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11156:17)\n    at Object.parseBlockOrModuleBlockBody (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11731:25)\n    at Object.parseBlockBody (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11717:10)\n    at Object.parseTopLevel (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:11087:10)\n    at Object.parse (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:12768:10)\n    at parse (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/parser/lib/index.js:12821:38)\n    at parser (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/core/lib/parser/index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/core/lib/transformation/normalize-file.js:93:38)\n    at normalizeFile.next (<anonymous>)\n    at run (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/core/lib/transformation/index.js:31:50)\n    at run.next (<anonymous>)\n    at Function.transform (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/@babel/core/lib/transform.js:27:41)\n    at transform.next (<anonymous>)\n    at step (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/gensync/index.js:254:32)\n    at gen.next (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/gensync/index.js:266:13)\n    at async.call.value (/Applications/MAMP/htdocs/wordpress/wp-content/themes/oleez/assets/node_modules/gensync/index.js:216:11)");
 
 /***/ }),
 
