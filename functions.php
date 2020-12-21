@@ -6,15 +6,15 @@
  */
 
 // Constants
-if ( ! defined( 'VELLA_BUILD_URI' ) ) {
-	define( 'VELLA_BUILD_URI', untrailingslashit( get_template_directory_uri() ) . '/assets/build' );
+if ( ! defined( 'OLEEZ_BUILD_URI' ) ) {
+	define( 'OLEEZ_BUILD_URI', untrailingslashit( get_template_directory_uri() ) . '/assets/build' );
 }
 
 function vella_add_theme_scripts() {
 
-	wp_enqueue_style( 'main-css', VELLA_BUILD_URI . '/css/main.css', false, '1.1', 'all' );
-	wp_enqueue_script( 'main-js', VELLA_BUILD_URI . '/js/main.js', [ 'jquery' ], 1.1, true );
-	wp_enqueue_style( 'slick-css', get_stylesheet_directory_uri() . '/lib/css/slick.css', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'main-css', OLEEZ_BUILD_URI . '/css/main.css', false, '1.1', 'all' );
+	wp_enqueue_script( 'main-js', OLEEZ_BUILD_URI . '/js/main.js', [ 'jquery' ], '1.1', true );
+	wp_enqueue_style( 'slick-css', get_stylesheet_directory_uri() . '/lib/css/slick.css', array(), '1.1' );
 
 }
 
@@ -165,8 +165,9 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //     );
 // }
 
-
-
+include_once 'includes/register-post-type-news.php';
+include_once 'includes/register-post-type-portfolio.php';
+include_once 'includes/register-post-type-testimonials.php';
 
 
 

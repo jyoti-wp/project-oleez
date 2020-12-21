@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-
+<?php //wp_die(); ?>
 <div class="content">
 <?php get_template_part( 'template-parts/home/hero-carousel' ); ?>
 <?php get_template_part( 'template-parts/home/section-carousel' ); ?>
