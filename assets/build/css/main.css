@@ -135,6 +135,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   padding: 1.875rem 0.9375rem; }
+  .hero-slide .left-hero-wrapper {
+    position: absolute;
+    top: 0; }
   .hero-slide .right-hero {
     padding-left: 6.25rem; }
     .hero-slide .right-hero img {

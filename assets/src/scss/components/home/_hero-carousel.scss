@@ -4,11 +4,16 @@
   padding: 30px 15px;
 
   .wrapper {
-    
+
     @media screen and (min-width: $tablet) {
       max-width: 720px;
     }
   }
+
+	.left-hero-wrapper {
+		position: absolute;
+		top: 0;
+	}
 
   .right-hero {
     padding-left: 100px;

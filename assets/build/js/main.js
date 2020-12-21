@@ -93,7 +93,37 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/src/js/carousel/index.js: Unexpected token, expected \";\" (22:9)\n\n\u001b[0m \u001b[90m 20 | \u001b[39m}( jQuery ) )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 | \u001b[39m\u001b[32m\"scripts\"\u001b[39m\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 | \u001b[39m    \u001b[32m\"lint\"\u001b[39m\u001b[33m:\u001b[39m \u001b[32m\"eslint --fix --ext .js,.jsx .\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m\n    at Object._raise (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:746:17)\n    at Object.raiseWithData (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:739:17)\n    at Object.raise (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:733:17)\n    at Object.unexpected (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:8807:16)\n    at Object.semicolon (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:8789:40)\n    at Object.parseExpressionStatement (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11689:10)\n    at Object.parseStatementContent (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11290:19)\n    at Object.parseStatement (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11156:17)\n    at Object.parseBlockOrModuleBlockBody (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11731:25)\n    at Object.parseBlockBody (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11717:10)\n    at Object.parseTopLevel (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:11087:10)\n    at Object.parse (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:12768:10)\n    at parse (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/parser/lib/index.js:12821:38)\n    at parser (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/core/lib/parser/index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/core/lib/transformation/normalize-file.js:93:38)\n    at normalizeFile.next (<anonymous>)\n    at run (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/core/lib/transformation/index.js:31:50)\n    at run.next (<anonymous>)\n    at Function.transform (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/@babel/core/lib/transform.js:27:41)\n    at transform.next (<anonymous>)\n    at step (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/gensync/index.js:254:32)\n    at /Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/gensync/index.js:266:13\n    at async.call.result.err.err (/Applications/MAMP/htdocs/wp-content/themes/project-oleez/assets/node_modules/gensync/index.js:216:11)");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+(function ($) {
+  var SlickCarousel = /*#__PURE__*/function () {
+    function SlickCarousel() {
+      _classCallCheck(this, SlickCarousel);
+
+      this.initiateCarousel();
+    }
+
+    _createClass(SlickCarousel, [{
+      key: "initiateCarousel",
+      value: function initiateCarousel() {
+        $('.hero-section').slick({
+          autoplay: false,
+          autoplaySpeed: 1000,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        });
+      }
+    }]);
+
+    return SlickCarousel;
+  }();
+
+  new SlickCarousel();
+})(jQuery);
 
 /***/ }),
 
@@ -110,7 +140,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./carousel */ "./src/js/carousel/index.js");
 /* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_1__);
-console.warn('Hello');
 
 
 

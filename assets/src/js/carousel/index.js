@@ -1,13 +1,14 @@
-( function ( $ ) {
 
+
+( function ( $ ) {
 	class SlickCarousel {
-		init() {
+    constructor() {
 			this.initiateCarousel();
 		}
-	
+
 		initiateCarousel() {
 			$ ('.hero-section').slick( {
-				autoplay: true,
+				autoplay: false,
 				autoplaySpeed: 1000,
 				slidesToShow: 1,
 				slidesToScroll: 1,
@@ -18,10 +19,3 @@
 	new SlickCarousel();
 
 }( jQuery ) );
-
-"scripts": {
-    "lint": "eslint --fix --ext .js,.jsx ."
-}
-
-
-

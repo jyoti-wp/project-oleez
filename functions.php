@@ -13,8 +13,10 @@ if ( ! defined( 'OLEEZ_BUILD_URI' ) ) {
 function vella_add_theme_scripts() {
 
 	wp_enqueue_style( 'main-css', OLEEZ_BUILD_URI . '/css/main.css', false, '1.1', 'all' );
-	wp_enqueue_script( 'main-js', OLEEZ_BUILD_URI . '/js/main.js', [ 'jquery' ], '1.1', true );
-	wp_enqueue_style( 'slick-css', get_stylesheet_directory_uri() . '/lib/css/slick.css', array(), '1.1' );
+	wp_enqueue_script( 'main-js', OLEEZ_BUILD_URI . '/js/main.js', [ 'jquery', 'slick-js' ], '1.1', true );
+	wp_enqueue_style( 'slick-css', untrailingslashit( get_template_directory_uri() ) . '/assets/library/slick/slick.css', [], false, 'all' );
+	wp_enqueue_style( 'slick-theme-css', untrailingslashit( get_template_directory_uri() ) . '/assets/library/slick/slick-theme.css', ['slick-css'], false, 'all' );
+	wp_enqueue_script( 'slick-js', untrailingslashit( get_template_directory_uri() ) . '/assets/library/slick/slick.min.js', ['jquery'], filemtime( untrailingslashit( get_template_directory() ) . '/assets/library/slick/slick.min.js' ), true );
 
 }
 
