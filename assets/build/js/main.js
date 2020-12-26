@@ -140,8 +140,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./carousel */ "./src/js/carousel/index.js");
 /* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _menus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menus */ "./src/js/menus/index.js");
+/* harmony import */ var _menus__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_menus__WEBPACK_IMPORTED_MODULE_2__);
 
 
+
+
+/***/ }),
+
+/***/ "./src/js/menus/index.js":
+/*!*******************************!*\
+  !*** ./src/js/menus/index.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var secondaryMenuBtn = document.querySelector('.header-secondary-menu-icon-wrap');
+var secondaryMenu = document.querySelector('.header-secondary-menu-items-wrap');
+var closeSecondaryMenuBtn = document.querySelector('.close-secondary-menu');
+
+if (secondaryMenuBtn) {
+  secondaryMenuBtn.addEventListener('click', function () {
+    if (secondaryMenu.classList.contains('open')) {
+      secondaryMenu.classList.remove('open');
+    } else {
+      secondaryMenu.classList.add('open');
+    }
+  });
+}
+
+if (closeSecondaryMenuBtn) {
+  closeSecondaryMenuBtn.addEventListener('click', function () {
+    if (secondaryMenu) {
+      secondaryMenu.classList.remove('open');
+    }
+  });
+}
 
 /***/ }),
 

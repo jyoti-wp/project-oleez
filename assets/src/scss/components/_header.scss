@@ -1,4 +1,4 @@
-header{ 
+header{
 	overflow: hidden;
 	margin-bottom: 0px;
 
@@ -25,6 +25,7 @@ header{
 	.header-container {
 		display: flex;
 		justify-content: space-between;
+		position: relative;
 	}
 
 	.menu {
@@ -33,7 +34,6 @@ header{
 	}
 
 	ul li {
-		position: relative;
 		list-style: none;
 		padding-right: 20px;
     	padding-left: 20px;

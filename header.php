@@ -27,9 +27,15 @@
 				<div class="header-menu-wrap">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 				</div>
-				<?php get_template_part( 'template-parts/home/header-secondary-menu' ); ?>
-				<div class="burger-menu-icon">☰</div>
+				<!--Menu buttons-->
+				<div class="menu-btns">
+					<div class="header-secondary-menu-icon-wrap">
+						<img width="48" height="48" class="header-secondary-menu-icon" src="https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/social%20icon@2x.svg" alt="header-secondary">
+					</div>
+					<div class="burger-menu-icon">☰</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </header>
+<?php get_template_part( 'template-parts/home/header-secondary-menu' ); ?>
