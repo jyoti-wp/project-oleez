@@ -22,17 +22,6 @@ function vella_add_theme_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'vella_add_theme_scripts' );
 
-function register_my_menus() {
-	register_nav_menus(
-		array(
-			'header-menu' => __( 'Header Menu' ),
-			'extra-menu'  => __( 'Extra Menu' )
-		)
-	);
-}
-
-add_action( 'init', 'register_my_menus' );
-
 function themename_custom_logo_setup() {
 	$defaults = array(
 		'height'      => 100,
@@ -167,6 +156,7 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 //     );
 // }
 
+include_once 'includes/menus.php';
 include_once 'includes/register-post-type-news.php';
 include_once 'includes/register-post-type-portfolio.php';
 include_once 'includes/register-post-type-testimonials.php';

@@ -27,6 +27,7 @@
 				<div class="header-menu-wrap">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 				</div>
+				<?php get_template_part( 'template-parts/home/header-secondary-menu' ); ?>
 				<div class="burger-menu-icon">☰</div>
 			</div>
 		</div>
