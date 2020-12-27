@@ -1,0 +1,67 @@
+.header-search-form-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	color: $yellow;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease-in;
+
+	&.open {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.search-btn-form-wrap {
+	position: relative;
+}
+
+.search-form-close-btn {
+	color: $white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	font-size: 36px;
+	padding: 8px 18px;
+	margin: 24px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.header-search-form {
+	input[type="text"] {
+		border: 0;
+		background-color: transparent;
+		border-bottom: 1px solid rgba(134, 134, 134, 0.53);
+		width: 500px;
+		max-width: 100%;
+		padding: 0 20px 24px 48px;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: 20px;
+		color: $yellow;
+		font-size: 18px;
+		line-height: 1.39;
+		font-weight: 500;
+		outline: none;
+		background-image: url(https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/search-white.svg);
+	}
+}
+
+.search-btn-icon {
+	margin-right: 24px;
+	outline: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}

@@ -29,6 +29,9 @@
 				</div>
 				<!--Menu buttons-->
 				<div class="menu-btns">
+					<button id="search-btn-icon" class="search-btn-icon">
+						<img width="50" height="50" src="https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/search.svg" alt="search icon">
+					</button>
 					<div class="header-secondary-menu-icon-wrap">
 						<img width="48" height="48" class="header-secondary-menu-icon" src="https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/social%20icon@2x.svg" alt="header-secondary">
 					</div>
@@ -38,4 +41,7 @@
 		</div>
 	</div>
 </header>
-<?php get_template_part( 'template-parts/home/header-secondary-menu' ); ?>
+<?php
+get_template_part( 'template-parts/home/header-secondary-menu' );
+get_template_part( 'template-parts/search/search-form' );
+?>

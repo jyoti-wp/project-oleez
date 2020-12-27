@@ -142,6 +142,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _menus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menus */ "./src/js/menus/index.js");
 /* harmony import */ var _menus__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_menus__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./search */ "./src/js/search/index.js");
+/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_search__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -173,6 +176,35 @@ if (closeSecondaryMenuBtn) {
   closeSecondaryMenuBtn.addEventListener('click', function () {
     if (secondaryMenu) {
       secondaryMenu.classList.remove('open');
+    }
+  });
+}
+
+/***/ }),
+
+/***/ "./src/js/search/index.js":
+/*!********************************!*\
+  !*** ./src/js/search/index.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var searchForm = document.getElementById('header-search-form-wrap');
+var searchOpenBtn = document.getElementById('search-btn-icon');
+var searchCloseBtn = document.getElementById('search-form-close-btn');
+
+if (searchCloseBtn) {
+  searchCloseBtn.addEventListener('click', function () {
+    searchForm.classList.remove('open');
+  });
+}
+
+if (searchOpenBtn) {
+  searchOpenBtn.addEventListener('click', function () {
+    if (searchForm.classList.contains('open')) {
+      searchForm.classList.remove('open');
+    } else {
+      searchForm.classList.add('open');
     }
   });
 }

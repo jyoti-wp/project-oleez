@@ -6,7 +6,7 @@
  */
 header {
   overflow: hidden;
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
   header .logo-image {
     padding: 1.25rem; }
   header .header-container {
@@ -130,6 +130,57 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #100e0e; }
+
+/*---------------------------
+		Accessiblity
+---------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  left: -999em;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal; }
+  .screen-reader-text:focus {
+    box-shadow: 0 0 0.125rem 0.125rem rgba(0, 0, 0, 0.6);
+    clip: auto;
+    -webkit-clip-path: none;
+            clip-path: none;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 0.3125rem;
+    line-height: normal;
+    padding: 0.9375rem 1.4375rem 0.875rem;
+    text-decoration: none;
+    top: 0.3125rem;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/*---------------------------
+		Placeholder
+---------------------------*/
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f7b500; }
+
+::-moz-placeholder {
+  color: #f7b500; }
+
+::-ms-input-placeholder {
+  color: #f7b500; }
+
+::placeholder {
+  color: #f7b500; }
 
 .hero-slide {
   display: flex;
@@ -666,10 +717,67 @@ body {
     padding-top: 0.9375rem;
     padding-bottom: 0.9375rem;
     display: inline-block; }
-  @media screen and (min-width: 375px) {
-      header img {
-        width: 5rem; } }
-  @media screen and (min-width: 768px) {
+
+.header-search-form-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  color: #f7b500;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in; }
+  .header-search-form-wrap.open {
+    visibility: visible;
+    opacity: 1; }
+
+.search-btn-form-wrap {
+  position: relative; }
+
+.search-form-close-btn {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  font-size: 2.25rem;
+  padding: 0.5rem 1.125rem;
+  margin: 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+.header-search-form input[type="text"] {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(134, 134, 134, 0.53);
+  width: 31.25rem;
+  max-width: 100%;
+  padding: 0 1.25rem 1.5rem 3rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 1.25rem;
+  color: #f7b500;
+  font-size: 1.125rem;
+  line-height: 1.39;
+  font-weight: 500;
+  outline: none;
+  background-image: url(https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/search-white.svg); }
+
+.search-btn-icon {
+  margin-right: 1.5rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer; }
+
+@media screen and (min-width: 768px) {
         .oleez-footer .footer-content .row {
           flex-wrap: nowrap; }
           .oleez-footer .footer-content .row .column {
@@ -771,7 +879,8 @@ body {
           display: flex; }
       .menu-btns .burger-menu-icon {
         display: none; } }
-  @media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
       header .logo-image {
         padding-top: 2.25rem; }
       header .logo-image img {
@@ -857,7 +966,8 @@ body {
         width: 23.5625rem;
         margin-right: 4.5rem;
         float: left; } }
-  @media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1200px) {
   .burger-menu-icon {
     display: none; }
     .menu-header-menu-container ul.menu {
@@ -869,7 +979,8 @@ body {
       width: 100%;
       border-bottom: 1px solid #cbcbcb;
       display: none; } }
-  @media screen and (max-width: 640px) {
+
+@media screen and (max-width: 640px) {
       .oleez-landing-section-carousel .landing-about-feature {
         flex: none;
         max-width: 100%; } }
