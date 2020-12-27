@@ -1,4 +1,4 @@
-<form role="search" method="get" id="searchform" class="searchform" action="/">
+<form role="search" method="get" id="searchform" class="searchform" action="<?php get_home_url(); ?>">
 	<div>
 		<label class="screen-reader-text" for="s">Search for:</label>
 		<input type="text" name="s" placeholder="Search here" id="search" value="<?php the_search_query(); ?>" />
