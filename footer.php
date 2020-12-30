@@ -13,12 +13,7 @@
                 <div class="column">
                     <img src="<?php echo get_theme_file_uri('https://via.placeholder.com/100x38')?>" alt="oleez" class="footer-logo" width="100" height="38">
                     <p class="footer-intro-text">Don't be shy, get in touch with us and create the world again!</p>
-                    <nav class="footer-social-links">
-                        <a href="#!">Fb</a>
-                        <a href="#!">Tw</a>
-                        <a href="#!">In</a>
-                        <a href="#!">Be</a>
-                    </nav>
+					<?php get_template_part( 'template-parts/social-links' ); ?>
                 </div>
                 <div class="column">
                     <div class="row">
