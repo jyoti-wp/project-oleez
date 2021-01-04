@@ -4,7 +4,7 @@ $social_links      = [];
 $social_links_name_map = [
 	'facebook'  => 'Fb',
 	'twitter'   => 'Tw',
-	'instagram' => 'Is',
+	'instagram' => 'In',
 	'youtube'   => 'Yt',
 ];
 
