@@ -116,6 +116,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           slidesToShow: 1,
           slidesToScroll: 1
         });
+        $('.project-carousel-container').slick({
+          autoplay: false,
+          autoplaySpeed: 1000,
+          slidesToShow: 1
+        });
       }
     }]);
 

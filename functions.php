@@ -61,7 +61,7 @@ function wpb_add_google_fonts() {
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
-
+include_once 'includes/add-theme-support.php';
 include_once 'includes/menus.php';
 include_once 'includes/register-post-type-news.php';
 include_once 'includes/register-post-type-portfolio.php';

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Register Custom Post Type Portfolio
 function create_portfolio_cpt() {
@@ -38,7 +38,7 @@ function create_portfolio_cpt() {
 		'labels' => $labels,
 		'menu_icon' => '',
 		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author', 'comments', 'page-attributes', 'post-formats', 'custom-fields'),
-		'taxonomies' => array(),
+		'taxonomies' => array('post_tag'),
 		'public' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
