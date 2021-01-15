@@ -67,6 +67,7 @@ include_once 'includes/register-post-type-news.php';
 include_once 'includes/register-post-type-portfolio.php';
 include_once 'includes/register-post-type-testimonials.php';
 include_once 'includes/customizer.php';
+include_once 'includes/users.php';
 
 
 
