@@ -9,6 +9,7 @@
 function oleez_user_profile_edit_action($user) {
 	$facebook_link = (isset($user->facebook_link) && $user->facebook_link) ? $user->facebook_link : '';
 	$twitter_link = (isset($user->twitter_link) && $user->twitter_link) ? $user->twitter_link : '';
+	$twitter_link = (isset($user->Instagram_link) && $user->Instagram_link) ? $user->Instagram_link : '';
 	?>
 	<h3>Social Links</h3>
 	<!--Facebook-->
@@ -22,6 +23,10 @@ function oleez_user_profile_edit_action($user) {
 	<label for="twitter_link">
 		Twitter Link
 		<input name="twitter_link" type="text" id="twitter_link" value="<?php echo $twitter_link; ?>">
+	</label>
+	<label for="Instagram_link">
+		Twitter Link
+		<input name="Instagram_link" type="text" id="Instagram_link" value="<?php echo $Instagram_link; ?>">
 	</label>
 	<?php
 }

@@ -25,10 +25,11 @@
                     	foreach ( $professional_users as $professional_user ) {
                     		$user_bio = get_user_meta( $professional_user->data->ID, 'description', true );
 		                    $facebook_link = get_user_meta( $professional_user->data->ID, 'facebook_link', true );
-		                    $twitter_link = get_user_meta( $professional_user->data->ID, 'twitter_link', true );
+							$twitter_link = get_user_meta( $professional_user->data->ID, 'twitter_link', true );
+							$instagram_link = get_user_meta( $professional_user->data->ID, 'Instagram_link', true);
 		                    $user_image_url = get_avatar_url( $professional_user->data->ID, [
 		                    		'size' => 295
-		                    ] );
+							] );
                     		?>
 		                    <div class="landing-team-card" style="">
 			                    <img src="<?php echo esc_url( $user_image_url ); ?>" class="Landing-team-img" alt="" width="295" height="362">
@@ -37,7 +38,7 @@
 			                    <nav class="team-card-social-links">
 				                    <a href="<?php echo esc_url( $facebook_link ); ?>">Fb</a>
 				                    <a href="<?php echo esc_url( $twitter_link ); ?>">Tw</a>
-				                    <a href="#!">In</a>
+				                    <a href="<?php echo esc_url( $instagram_link); ?>">In</a>
 			                    </nav>
 		                    </div>
 	                        <?php
@@ -48,3 +49,4 @@
         </div>
     </div>
 </section>
+
