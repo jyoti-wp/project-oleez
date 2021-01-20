@@ -1,0 +1,900 @@
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/**
+ * Front end styles.
+ */
+header {
+  overflow: hidden;
+  margin-bottom: 0; }
+  header .logo-image {
+    padding: 1.25rem; }
+  header .header-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative; }
+  header .menu {
+    display: flex;
+    justify-content: space-between; }
+  header ul li {
+    list-style: none;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  header img {
+    width: auto; }
+  header .menu-item a {
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem; }
+
+.menu-header-menu-container ul.menu {
+  display: flex;
+  padding: 1.25rem 0; }
+  .menu-header-menu-container ul.menu > li.menu-item {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    color: black; }
+    .menu-header-menu-container ul.menu > li.menu-item a {
+      font-weight: 600;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      letter-spacing: 0.8px;
+      padding: 0.75rem 0.9375rem;
+      display: inline-block;
+      margin: 0 0.625rem; }
+
+.menu-header-menu-container ul.sub-menu {
+  display: none;
+  background-color: #fff;
+  position: absolute; }
+
+.oleez-footer {
+  background-color: #0e0e0f;
+  color: #ffffff; }
+  .oleez-footer .wrapper {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem; }
+  .oleez-footer .footer-content {
+    padding-top: 5.625rem;
+    padding-bottom: 2.8125rem;
+    overflow: hidden; }
+    .oleez-footer .footer-content .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -0.9375rem; }
+      .oleez-footer .footer-content .row .footer-logo {
+        height: 1.875rem;
+        margin-bottom: 1.1875rem; }
+      .oleez-footer .footer-content .row .column {
+        position: relative;
+        width: 100%;
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; }
+        .oleez-footer .footer-content .row .column .footer-logo {
+          height: 1.875rem;
+          margin-bottom: 1.1875rem; }
+        .oleez-footer .footer-content .row .column .footer-intro-text {
+          font-size: 1.125rem;
+          line-height: 1.5;
+          margin-bottom: 1.625rem;
+          max-width: 18rem; }
+  .oleez-footer .footer-social-links {
+    display: flex; }
+    .oleez-footer .footer-social-links a {
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1;
+      color: white;
+      margin-right: 0.625rem; }
+  .oleez-footer .footer-widget {
+    margin-bottom: 2.5rem; }
+    .oleez-footer .footer-widget .widget-title {
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 1.5;
+      margin-bottom: 0.375rem;
+      color: #f7b500; }
+    .oleez-footer .footer-widget .widget-content {
+      font-size: 0.875rem;
+      line-height: 1.29; }
+  .oleez-footer .footer-text {
+    display: block;
+    padding: 2.75rem 0px; }
+    .oleez-footer .footer-text p {
+      font-size: 0.875rem;
+      line-height: 1.29; }
+    .oleez-footer .footer-text .text-reset {
+      color: white; }
+  .oleez-footer .column > row {
+    flex-wrap: nowrap; }
+
+html {
+  overflow-x: hidden; }
+
+.wrapper {
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #000; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #100e0e; }
+
+/*---------------------------
+		Accessiblity
+---------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  left: -999em;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal; }
+  .screen-reader-text:focus {
+    box-shadow: 0 0 0.125rem 0.125rem rgba(0, 0, 0, 0.6);
+    clip: auto;
+    -webkit-clip-path: none;
+            clip-path: none;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 0.3125rem;
+    line-height: normal;
+    padding: 0.9375rem 1.4375rem 0.875rem;
+    text-decoration: none;
+    top: 0.3125rem;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/*---------------------------
+		Placeholder
+---------------------------*/
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f7b500; }
+
+::-moz-placeholder {
+  color: #f7b500; }
+
+::-ms-input-placeholder {
+  color: #f7b500; }
+
+::placeholder {
+  color: #f7b500; }
+
+.hero-slide {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1.875rem 0.9375rem; }
+  .hero-slide .left-hero-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0; }
+  .hero-slide .right-hero {
+    padding-left: 10.9375rem; }
+    .hero-slide .right-hero img {
+      min-height: 21.875rem;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .hero-slide .left-hero {
+    width: 23.75rem;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+    .hero-slide .left-hero .left-hero-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1.875rem; }
+  .hero-slide .hero-caption {
+    background-color: #f7b500;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    white-space: nowrap;
+    font-size: 2.1875rem;
+    margin-bottom: -0.9375rem;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .hero-slide .hero-cta {
+    display: flex;
+    align-items: center;
+    margin-top: 2.1875rem; }
+    .hero-slide .hero-cta .hero-cta-icon {
+      margin-left: 0.5rem;
+      margin-top: 0.3125rem; }
+
+.oleez-landing-section-carousel {
+  overflow: hidden;
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-carousel .oleez-landing-section-content {
+    position: relative; }
+  .oleez-landing-section-carousel .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+    .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+      display: none; }
+    .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+  .oleez-landing-section-carousel .landing-about-content {
+    margin-bottom: 4.375rem; }
+    .oleez-landing-section-carousel .landing-about-content .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+  .oleez-landing-section-carousel .row {
+    margin-left: 2.8125rem; }
+  .oleez-landing-section-carousel .column {
+    flex: none;
+    max-width: 100%;
+    margin-top: 0; }
+    .oleez-landing-section-carousel .column h2 {
+      font-size: 1.875rem;
+      line-height: 1.33;
+      margin-bottom: 0.625rem; }
+    .oleez-landing-section-carousel .column p {
+      font-size: 0.9375rem;
+      line-height: 1.67;
+      margin-bottom: 0.625rem; }
+  .oleez-landing-section-carousel .landing-about-feature {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+    .oleez-landing-section-carousel .landing-about-feature img {
+      margin-bottom: 2.8125rem;
+      vertical-align: middle;
+      border-style: none; }
+    .oleez-landing-section-carousel .landing-about-feature h2 {
+      line-height: 1.25rem;
+      font-weight: 700; }
+    .oleez-landing-section-carousel .landing-about-feature p {
+      font-size: 1rem;
+      line-height: 1.75rem;
+      font-weight: 300;
+      padding: 0.625rem 0px; }
+
+.oleez-landing-section-news {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem; }
+  .oleez-landing-section-news .oleez-landing-section-content {
+    padding-left: 3.125rem;
+    position: relative; }
+  .oleez-landing-section-news .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+    .oleez-landing-section-news .oleez-landing-section-verticals .number {
+      font-size: 1.375rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+    .oleez-landing-section-news .oleez-landing-section-verticals img {
+      position: relative;
+      top: -0.1875rem;
+      display: none; }
+  .oleez-landing-section-news .section-title {
+    font-size: 2rem;
+    line-height: 1.33;
+    font-weight: 500;
+    font-weight: bolder; }
+  .oleez-landing-section-news p {
+    font-size: 1.125rem;
+    line-height: 1.67;
+    margin-bottom: 3.875rem; }
+  .oleez-landing-section-news .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+  .oleez-landing-section-news .column {
+    position: relative;
+    width: 100%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-bottom: 1.5rem; }
+    .oleez-landing-section-news .column .news-card {
+      padding: 0px 1.5rem;
+      background-color: #f9f9f9;
+      height: 100%;
+      position: relative; }
+    .oleez-landing-section-news .column .news-card::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0;
+      transition: all 0.3s ease-in; }
+    .oleez-landing-section-news .column .card-body {
+      flex: 1 1 auto;
+      min-height: 1px;
+      padding: 1.25rem;
+      position: relative;
+      z-index: 3; }
+    .oleez-landing-section-news .column .author-info {
+      margin-bottom: 3rem; }
+      .oleez-landing-section-news .column .author-info img {
+        width: 1.625rem;
+        height: 1.625rem;
+        border-radius: 50%;
+        margin-right: 0.4375rem;
+        margin-top: 1.875rem; }
+    .oleez-landing-section-news .column .media {
+      display: flex;
+      align-items: flex-start; }
+    .oleez-landing-section-news .column .media-body {
+      flex: 1; }
+    .oleez-landing-section-news .column .author-name {
+      font-size: 0.875rem;
+      line-height: 1;
+      font-weight: 400;
+      margin-bottom: 0.3125rem; }
+    .oleez-landing-section-news .column .news-post-date {
+      font-size: 0.75rem;
+      line-height: 1.2;
+      margin-bottom: 0; }
+    .oleez-landing-section-news .column .post-meta {
+      font-size: 0.875rem;
+      line-height: 2.08;
+      margin-bottom: 0.25rem;
+      padding-top: 1.25rem; }
+    .oleez-landing-section-news .column .post-category {
+      color: #f7b500; }
+    .oleez-landing-section-news .column .post-title {
+      font-size: 1.1875rem;
+      font-weight: 500;
+      line-height: 1.47;
+      margin-bottom: 1.3125rem;
+      margin-top: 1px; }
+    .oleez-landing-section-news .column .post-permalink {
+      font-size: 1.125rem;
+      font-weight: bolder;
+      line-height: 2.08;
+      color: inherit;
+      padding-top: 1.25rem; }
+    .oleez-landing-section-news .column .post-permalink::after {
+      content: "\2192";
+      display: inline-block;
+      margin-left: 0.375rem;
+      color: inherit;
+      font-size: 1.25rem;
+      transition: transform 0.3s ease-in-out; }
+
+.oleez-landing-section-client {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem;
+  background-color: #f8f4eb; }
+  .oleez-landing-section-client .oleez-landing-section-content {
+    padding-left: 3.125rem;
+    position: relative; }
+  .oleez-landing-section-client .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+    .oleez-landing-section-client .oleez-landing-section-verticals .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+    .oleez-landing-section-client .oleez-landing-section-verticals img {
+      position: relative;
+      top: -0.1875rem;
+      display: none; }
+  .oleez-landing-section-client .section-title {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500; }
+  .oleez-landing-section-client .client-section-subtitle {
+    font-size: 0.9375rem;
+    line-height: 2;
+    margin-bottom: 3rem; }
+  .oleez-landing-section-client .row {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+    .oleez-landing-section-client .row .column {
+      padding-top: 0.9375rem;
+      padding-bottom: 0.9375rem; }
+    .oleez-landing-section-client .row .client-logo {
+      border: 1px solid #f1e2c2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.25rem 1.75rem; }
+      .oleez-landing-section-client .row .client-logo .client-logo img {
+        max-width: 100%;
+        -o-object-fit: contain;
+        object-fit: contain; }
+
+.project-item-card {
+  position: relative; }
+
+.project-item-info-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  width: 14.75rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .project-item-info-wrap p {
+    display: block; }
+  .project-item-info-wrap a {
+    color: #fff;
+    display: block; }
+
+.oleez-landing-section-team {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem;
+  overflow: hidden; }
+  .oleez-landing-section-team .oleez-landing-section-content {
+    position: relative;
+    padding-left: 3.125rem; }
+  .oleez-landing-section-team .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+    .oleez-landing-section-team .oleez-landing-section-verticals .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+    .oleez-landing-section-team .oleez-landing-section-verticals img {
+      position: relative;
+      top: -0.1875rem;
+      display: none; }
+  .oleez-landing-section-team .landing-team-content {
+    margin-bottom: 3.25rem;
+    overflow: hidden; }
+  .oleez-landing-section-team .column {
+    position: relative;
+    width: 100%; }
+  .oleez-landing-section-team .row {
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem; }
+  .oleez-landing-section-team .section-title {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500; }
+  .oleez-landing-section-team .landing-team-card {
+    margin-bottom: 3rem; }
+  .oleez-landing-section-team .team-card-img {
+    width: 100%;
+    margin-bottom: 2.4375rem; }
+  .oleez-landing-section-team .team-card-name {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+  .oleez-landing-section-team .team-card-job {
+    font-size: 0.875rem;
+    line-height: 1;
+    margin-bottom: 1rem; }
+  .oleez-landing-section-team .team-card-social-links {
+    display: flex; }
+    .oleez-landing-section-team .team-card-social-links a {
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-right: 0.625rem;
+      color: #100e0e; }
+
+.oleez-landing-section-testimonials {
+  padding-top: 8.125rem;
+  padding-bottom: 7.8125rem;
+  background-color: #f8f4eb; }
+  .oleez-landing-section-testimonials .oleez-landing-section-content {
+    padding-left: 3.125rem;
+    position: relative; }
+  .oleez-landing-section-testimonials .oleez-landing-section-verticals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 0.6875rem; }
+    .oleez-landing-section-testimonials .oleez-landing-section-verticals img {
+      position: relative;
+      top: -0.1875rem;
+      display: none; }
+    .oleez-landing-section-testimonials .oleez-landing-section-verticals .number {
+      font-size: 1.25rem;
+      color: #f7b500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.8125rem; }
+  .oleez-landing-section-testimonials h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 500;
+    margin-bottom: 0.625rem; }
+  .oleez-landing-section-testimonials .justify-content-between {
+    justify-content: space-between; }
+  .oleez-landing-section-testimonials .testimonial-section-content {
+    margin-bottom: 1.25rem; }
+    .oleez-landing-section-testimonials .testimonial-section-content .section-title {
+      font-size: 1.875rem;
+      line-height: 1.33;
+      font-weight: 500; }
+  .oleez-landing-section-testimonials .testimonial-carousel {
+    padding-bottom: 2.5rem; }
+    .oleez-landing-section-testimonials .testimonial-carousel .slick-nav-btn {
+      width: 2.8125rem;
+      height: 2.8125rem;
+      background-color: #000000;
+      border: 0;
+      border-radius: 0; }
+  .oleez-landing-section-testimonials .landing-testimonial-carousel {
+    position: relative;
+    display: block; }
+    .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-list {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+    .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-track {
+      opacity: 1;
+      width: 73.75rem;
+      transform: translate3d(0px, 0px, 0px); }
+  .oleez-landing-section-testimonials .landing-testimonial-card {
+    width: 18.4375rem; }
+    .oleez-landing-section-testimonials .landing-testimonial-card .media {
+      display: flex;
+      align-items: flex-start; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media .testimonial-card-img {
+        width: 2.5rem;
+        margin-right: 1.25rem; }
+    .oleez-landing-section-testimonials .landing-testimonial-card .media-body {
+      flex: 1; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-content p {
+        font-size: 1.125rem;
+        font-weight: 300;
+        line-height: 1.44;
+        color: #000000;
+        margin-bottom: 2.75rem; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-company p {
+        font-size: 0.75rem;
+        line-height: 2.08;
+        margin-bottom: 0; }
+      .oleez-landing-section-testimonials .landing-testimonial-card .media-body .testimonial-card-name {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 0.75;
+        color: #080808;
+        margin-bottom: -0.9375rem; }
+
+.menu-btns {
+  display: flex;
+  align-items: center;
+  padding-right: 0.75rem; }
+  .menu-btns .burger-menu-icon {
+    display: block; }
+
+.header-secondary-menu-icon-wrap {
+  margin-right: 0.75rem; }
+  .header-secondary-menu-icon-wrap .header-secondary-menu-icon {
+    width: 1rem;
+    height: 1rem; }
+
+.header-secondary-menu-items-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  height: 100vh;
+  width: 16.875rem;
+  z-index: 1;
+  transform: translateX(100%);
+  transition: 0.3s ease-in all; }
+  .header-secondary-menu-items-wrap.open {
+    transform: translateX(0); }
+  .header-secondary-menu-items-wrap .header-secondary-menu-items {
+    height: 100%;
+    padding: 5.375rem; }
+  .header-secondary-menu-items-wrap .header-secondary-menu-link {
+    color: #f7b500;
+    font-size: 1.5625rem;
+    line-height: 1;
+    font-weight: 700;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    display: inline-block; }
+
+.header-search-form-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  color: #f7b500;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in; }
+  .header-search-form-wrap.open {
+    visibility: visible;
+    opacity: 1; }
+
+.search-btn-form-wrap {
+  position: relative; }
+
+.search-form-close-btn {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  font-size: 2.25rem;
+  padding: 0.5rem 1.125rem;
+  margin: 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+.header-search-form input[type="text"] {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(134, 134, 134, 0.53);
+  width: 31.25rem;
+  max-width: 100%;
+  padding: 0 1.25rem 1.5rem 3rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 1.25rem;
+  color: #f7b500;
+  font-size: 1.125rem;
+  line-height: 1.39;
+  font-weight: 500;
+  outline: none;
+  background-image: url(https://www.bootstrapdash.com/demo/oleez-landing-page/assets/images/search-white.svg); }
+
+.search-btn-icon {
+  margin-right: 1.5rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer; }
+
+@media screen and (min-width: 768px) {
+        .oleez-footer .footer-content .row {
+          flex-wrap: nowrap; }
+          .oleez-footer .footer-content .row .column {
+            flex: 0 0 50%;
+            max-width: 50%; }
+    .oleez-footer .footer-widget-one {
+      margin-right: 1.25rem; }
+      .oleez-footer .footer-widget {
+        flex: 0 0 50%; }
+      .oleez-footer .footer-text {
+        display: flex;
+        justify-content: space-between; }
+        .oleez-footer .footer-text p {
+          display: flex;
+          justify-content: space-between; }
+    .oleez-footer .md-md-0 {
+      display: flex; }
+    .wrapper {
+      max-width: 45rem; }
+    body {
+      overflow: hidden;
+      margin: 0 auto; }
+    .hero-slide .wrapper {
+      max-width: 45rem; }
+      .hero-slide .hero-caption {
+        font-size: 2.625rem;
+        font-weight: 700;
+        line-height: 1.8; }
+      .hero-slide .hero-cta {
+        font-size: 1.125rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-content {
+        padding-left: 8.125rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-verticals {
+        margin-top: 1.0625rem; }
+        .oleez-landing-section-carousel .oleez-landing-section-verticals img {
+          display: inline-block;
+          position: relative;
+          top: -0.1875rem; }
+      .oleez-landing-section-carousel .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -0.9375rem;
+        margin-left: -0.9375rem; }
+      .oleez-landing-section-carousel .column {
+        flex: 0 0 50%;
+        max-width: 49%; }
+      .oleez-landing-section-news .oleez-landing-section-content {
+        padding-left: 7rem; }
+        .oleez-landing-section-news .oleez-landing-section-verticals img {
+          display: inline-block; }
+    .oleez-landing-section-client .wrapper {
+      max-width: 45rem; }
+      .oleez-landing-section-client .oleez-landing-section-content {
+        padding-left: 7rem; }
+        .oleez-landing-section-client .oleez-landing-section-verticals img {
+          display: inline-block; }
+      .oleez-landing-section-client .row {
+        display: flex;
+        flex-wrap: wrap; }
+        .oleez-landing-section-client .row .client-logo {
+          width: 7.125rem;
+          height: 3.125rem;
+          margin-left: 0.625rem;
+          margin-right: 0.625rem; }
+    .oleez-landing-section-team .wrapper {
+      max-width: 45rem; }
+      .oleez-landing-section-team .oleez-landing-section-content {
+        padding-left: 7rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals img {
+          display: inline-block; }
+      .oleez-landing-section-team .column {
+        flex: 0 0 50%;
+        max-width: 50%; }
+      .oleez-landing-section-team .row {
+        display: flex;
+        flex-wrap: nowrap; }
+      .oleez-landing-section-team .landing-team-card {
+        margin-left: 1.5625rem;
+        margin-right: 1.5625rem; }
+      .oleez-landing-section-testimonials .oleez-landing-section-content {
+        padding-left: 7rem; }
+        .oleez-landing-section-testimonials .oleez-landing-section-verticals img {
+          display: inline-block; }
+      .oleez-landing-section-testimonials .justify-content-between {
+        display: flex; }
+      .oleez-landing-section-testimonials .testimonial-carousel {
+        margin-top: 1.875rem; }
+        .oleez-landing-section-testimonials .landing-testimonial-carousel .slick-track {
+          display: flex; }
+      .menu-btns .burger-menu-icon {
+        display: none; } }
+
+@media screen and (min-width: 1200px) {
+      header .logo-image {
+        padding-top: 2.25rem; }
+      header .logo-image img {
+        width: 5.625rem;
+        height: 1.875rem; }
+        .menu-header-menu-container ul.menu > li.menu-item a {
+          padding-right: 1.75rem;
+          padding-left: 1.75rem;
+          font-weight: 500;
+          font-size: 1.375rem; }
+      .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
+        display: block; }
+            .oleez-footer .footer-content .row .column .footer-intro-text {
+              font-size: 1.375rem; }
+        .oleez-footer .footer-social-links a {
+          font-size: 1.375rem;
+          margin-right: 1.375rem; }
+    .oleez-footer .footer-widget-one {
+      margin-right: 7.5rem; }
+        .oleez-footer .footer-widget .widget-title {
+          font-size: 1.5rem; }
+        .oleez-footer .footer-widget .widget-content {
+          font-size: 1.125rem; }
+    .wrapper {
+      max-width: 75rem; }
+        .hero-slide .right-hero img {
+          width: 100%;
+          height: 38.4375rem;
+          max-width: none; }
+      .hero-slide .hero-caption {
+        font-size: 4.0625rem;
+        padding: 0.9375rem 2.1875rem; }
+      .hero-slide .hero-cta {
+        font-size: 1.25rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-content {
+        padding-left: 13.25rem; }
+      .oleez-landing-section-carousel .oleez-landing-section-verticals {
+        margin-top: 1.625rem; }
+        .oleez-landing-section-carousel .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+        .oleez-landing-section-carousel .landing-about-content .number {
+          font-size: 1.5625rem; }
+        .oleez-landing-section-carousel .column h2 {
+          font-size: 2.25rem; }
+        .oleez-landing-section-carousel .column p {
+          margin-top: 2.1875rem; }
+      .oleez-landing-section-news .oleez-landing-section-content {
+        padding-left: 13.25rem; }
+      .oleez-landing-section-news .row {
+        flex-wrap: nowrap; }
+    .oleez-landing-section-client .wrapper {
+      max-width: 75rem; }
+        .oleez-landing-section-client .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+        .oleez-landing-section-client .row .client-logo {
+          width: 13.4375rem;
+          height: 7.75rem; }
+    .oleez-landing-section-team .wrapper {
+      max-width: 75rem; }
+      .oleez-landing-section-team .oleez-landing-section-content {
+        padding-left: 13.25rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+        .oleez-landing-section-team .oleez-landing-section-verticals img {
+          display: inline-block; }
+      .oleez-landing-section-team .row {
+        flex-wrap: nowrap; }
+      .oleez-landing-section-testimonials .oleez-landing-section-content {
+        padding-left: 13.25rem; }
+        .oleez-landing-section-testimonials .oleez-landing-section-verticals .number {
+          font-size: 1.625rem; }
+      .oleez-landing-section-testimonials .testimonial-section-content {
+        margin-bottom: 6.25rem; }
+      .oleez-landing-section-testimonials .testimonial-carousel {
+        padding-top: 1.1875rem; }
+      .oleez-landing-section-testimonials .landing-testimonial-card {
+        width: 23.5625rem;
+        margin-right: 4.5rem;
+        float: left; } }
+
+@media screen and (max-width: 1200px) {
+  .burger-menu-icon {
+    display: none; }
+    .menu-header-menu-container ul.menu {
+      position: absolute;
+      display: block;
+      top: 4.75rem;
+      background: white;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid #cbcbcb;
+      display: none; } }
+
+@media screen and (max-width: 640px) {
+      .oleez-landing-section-carousel .landing-about-feature {
+        flex: none;
+        max-width: 100%; } }
+
+
+/*# sourceMappingURL=main.css.map*/
