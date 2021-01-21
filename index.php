@@ -25,8 +25,8 @@ if ( have_posts() ) :
 endif;
 ?>
 
-<?php get_footer(); ?>
 
+<?php get_footer(); ?>
 
 
 
