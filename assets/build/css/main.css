@@ -16,7 +16,7 @@ header {
   header .menu {
     display: flex;
     justify-content: space-between; }
-  header ul li {
+  header .menu-items ul li {
     list-style: none;
     padding-right: 1.25rem;
     padding-left: 1.25rem; }
@@ -907,8 +907,6 @@ body {
         width: 5.625rem;
         height: 1.875rem; }
         .menu-header-menu-container ul.menu > li.menu-item a {
-          padding-right: 1.75rem;
-          padding-left: 1.75rem;
           font-weight: 500;
           font-size: 1.375rem; }
       .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
@@ -953,6 +951,8 @@ body {
         flex-wrap: nowrap; }
     .oleez-landing-section-client .wrapper {
       max-width: 75rem; }
+      .oleez-landing-section-client .oleez-landing-section-content {
+        padding-left: 13.25rem; }
         .oleez-landing-section-client .oleez-landing-section-verticals .number {
           font-size: 1.625rem; }
         .oleez-landing-section-client .row .client-logo {
