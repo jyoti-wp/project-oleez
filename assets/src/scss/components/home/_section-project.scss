@@ -47,6 +47,10 @@
     @media screen and (min-width: $tablet) {
         padding-left: 112px;
     }
+
+    @media screen and (min-width: $desktop) {
+        padding-left: 212px;
+    }
 }
 
 .oleez-landing-section-verticals {

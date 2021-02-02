@@ -61,6 +61,17 @@
         }
     }
 
+    .oleez-landing-section-verticals::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        position: absolute;
+        top: 50px;
+        left: 11px;
+        bottom: 0;
+        background-color: #dadada;
+    }
+
     .landing-team-content {
         margin-bottom: 52px;
         overflow: hidden;
